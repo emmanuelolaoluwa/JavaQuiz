@@ -737,7 +737,7 @@ props.load(ips);
 return props.getProperty("db.password", "");
 
 }
-private static void delete(QuizJDBCDAO dao, Scanner scanner) throws Exception {
+private static void delete(QuizJDBCDAO dao, Scanner scanner) throws DeleteFailedException {
 	System.out.println("Enter quiz to delete");
 	scanner.hasNext();
 	

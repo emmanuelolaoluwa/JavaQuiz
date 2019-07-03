@@ -19,6 +19,7 @@ import fr.epita.quiz.datamodel.Question;
 import fr.epita.quiz.datamodel.Quiz;
 import fr.epita.quiz.datamodel.studentQuestion;
 import fr.epita.quiz.exception.CreateFailedException;
+import fr.epita.quiz.exception.DataAccessException;
 import fr.epita.quiz.exception.SearchFailedException;
 import fr.epita.quiz.datamodel.studentAnswer;
 import fr.epita.quiz.services.data.QuizJDBCDAO;

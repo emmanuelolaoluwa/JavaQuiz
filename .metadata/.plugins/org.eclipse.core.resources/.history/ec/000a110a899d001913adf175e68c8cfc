@@ -618,12 +618,10 @@ private static String questionMenu(Scanner scanner) {
 /**
  * Connection();
  * @return
- * @throws IOException 
- * @throws SQLException 
  * @throws Exception 
  */
 
-private static Connection getConnection() throws SQLException, IOException {
+private static Connection getConnection() throws Exception {
 		return DriverManager.getConnection("jdbc:h2:tcp://localhost/./database/quizDBB","sa", pass());
 	} 
 /**
