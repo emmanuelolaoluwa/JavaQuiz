@@ -1,0 +1,52 @@
+/**
+ * 
+ */
+package fr.epita.quiz.logger;
+
+/**
+ * @author emmanuel
+ *
+ */
+
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.FileWriter;
+import java.util.Scanner;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+
+
+/**
+ * @author emmanuel
+ *
+ */
+public class FileHandler {
+	
+	public String information;
+	
+	public FileHandler(String information) {
+		this.information = information;
+	}
+
+
+
+	public void filer() throws IOException {
+		
+		File file = new File("./home/java/neww.txt");
+		FileWriter fileWriter = new FileWriter(file, true);
+		
+		if(!file.exists()) {
+			file.getParentFile().mkdirs();
+			file.createNewFile();
+		}
+		
+		PrintWriter writer = new PrintWriter(fileWriter);
+		writer.write( information + "\n");
+		writer.flush();
+		writer.close();
+
+	}
+	
+	
+}

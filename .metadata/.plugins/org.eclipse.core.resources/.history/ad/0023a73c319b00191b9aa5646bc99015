@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.epita.quiz.logger;
+
+/**
+ * @author emmanuel
+ *
+ */
+public class Logger {
+
+}

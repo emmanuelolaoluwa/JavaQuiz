@@ -1,0 +1,16 @@
+package fr.epita.exam;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i =1;
+		int result = 0;
+		while(i*5 != 0) {
+			i++;
+			result += i;
+		}
+		System.out.println(result);
+	}
+
+}

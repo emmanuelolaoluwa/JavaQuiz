@@ -1,0 +1,301 @@
+
+m
+squid:S106¸"9Replace this use of System.out or System.err by a logger.(í‡¯·8Ô¿¦ìº-HšBRMAJORZ
+CODE_SMELL
+r
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(Ã‰º»üÿÿÿÿ8×åÆ…»-H’BRMAJORZ
+CODE_SMELL
+m
+squid:S106æ"9Replace this use of System.out or System.err by a logger.(‰ÁÇÅ8İ¡©—º-HïARMAJORZ
+CODE_SMELL
+rsquid:S1197ñ"8Move the array designator from the variable to the type.(ßò­úøÿÿÿÿ8ì÷¨»¶-HÍARMINORZ
+CODE_SMELL
+m
+squid:S106ù"9Replace this use of System.out or System.err by a logger.(µÊÃÑ8æµàşº-H¯ERMAJORZ
+CODE_SMELL
+{squid:S1854É"ARemove this useless assignment to local variable "studentChoice".(À‹¡ùÿÿÿÿ8¨ú¥ïº-H¥BRMAJORZ
+CODE_SMELL
+vsquid:S1854Í"ARemove this useless assignment to local variable "studentChoice".(¦®ôà8¨ú¥ïº-HÄARMAJORZ
+CODE_SMELL
+r
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(ñÆÛÙÿÿÿÿÿ8İìüòº-H²ERMAJORZ
+CODE_SMELL
+m
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(æª¯8Ä´ò»-HîARMAJORZ
+CODE_SMELL
+l
+squid:S106i"9Replace this use of System.out or System.err by a logger.(Ø™×À8ëŞ×„»-H‘BRMAJORZ
+CODE_SMELL
+m
+squid:S106—"9Replace this use of System.out or System.err by a logger.(Ÿ®Ùç8úÆÓ«»-H¥ERMAJORZ
+CODE_SMELL
+m
+squid:S106È"9Replace this use of System.out or System.err by a logger.(Š¡ò§8ò³Ïÿº-HúARMAJORZ
+CODE_SMELL
+l
+squid:S106u"9Replace this use of System.out or System.err by a logger.(ÎÏ½ 8¸†µ–»-H˜BRMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheckû"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8³ƒæïº-H”BRMAJORZ
+CODE_SMELL
+r
+squid:S106–"9Replace this use of System.out or System.err by a logger.(­üÿÓıÿÿÿÿ8“–Êƒ»-HÎARMAJORZ
+CODE_SMELL
+m
+squid:S106é"9Replace this use of System.out or System.err by a logger.(ê›ì‰8ò³Ïÿº-H‡BRMAJORZ
+CODE_SMELL
+m
+squid:S106¿"9Replace this use of System.out or System.err by a logger.(€íæÈ8æµàşº-HÀARMAJORZ
+CODE_SMELL
+r
+squid:S106½"9Replace this use of System.out or System.err by a logger.(¿¢×”ùÿÿÿÿ8÷»Í—º-HìARMAJORZ
+CODE_SMELL
+r
+squid:S106ß"9Replace this use of System.out or System.err by a logger.(ºÖ‚‘şÿÿÿÿ8òíû–º-HŒBRMAJORZ
+CODE_SMELL
+m
+squid:S106à"9Replace this use of System.out or System.err by a logger.(Ò÷Ç8¨ú¥ïº-H„BRMAJORZ
+CODE_SMELL
+œsquid:S1192á"_Define a constant instead of duplicating this literal "------------------------------" 8 times.(Ïíõšûÿÿÿÿ8¨ú¥ïº-H•BRCRITICALZ
+CODE_SMELL
+r
+squid:S106§"9Replace this use of System.out or System.err by a logger.(ƒåäÎÿÿÿÿÿ8‡’µîº-HËARMAJORZ
+CODE_SMELL
+l
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(Õñ’$8æµàşº-HBRMAJORZ
+CODE_SMELL
+m
+squid:S106Â"9Replace this use of System.out or System.err by a logger.(„š­ƒ8æµàşº-HòARMAJORZ
+CODE_SMELL
+r
+squid:S106è"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8ùô¿¼¶-H¦BRMAJORZ
+CODE_SMELL
+m
+squid:S106È"9Replace this use of System.out or System.err by a logger.(·ºüş8”¤œ€»-HÜARMAJORZ
+CODE_SMELL
+m
+squid:S106Â"9Replace this use of System.out or System.err by a logger.(ç­ËÕ8¨ú¥ïº-HĞARMAJORZ
+CODE_SMELL
+r
+squid:S106’"9Replace this use of System.out or System.err by a logger.(ÑäÕşÿÿÿÿ8¨ú¥ïº-HöARMAJORZ
+CODE_SMELL
+m
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(Üº…‘8Ÿ«şïº-HŞARMAJORZ
+CODE_SMELL
+s
+squid:S899Ã"<Do something with the "boolean" value returned by "hasNext".(õ¥ì8Ù°ïª»-HàDRMINORZVULNERABILITY
+r
+squid:S106†"9Replace this use of System.out or System.err by a logger.(®›İºüÿÿÿÿ8“–Êƒ»-HÁARMAJORZ
+CODE_SMELL
+m
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(Ê‹Öš8×ÊÓîº-H…BRMAJORZ
+CODE_SMELL
+l
+squid:S106n"9Replace this use of System.out or System.err by a logger.(’¸‘€8Ë‹¥–»-HåARMAJORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8˜£ª„»-HÇARMAJORZ
+CODE_SMELL
+r
+squid:S106‡"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8˜£ª„»-HÃARMAJORZ
+CODE_SMELL
+m
+squid:S106Å"9Replace this use of System.out or System.err by a logger.(÷‚ì¨8İìüòº-HõARMAJORZ
+CODE_SMELL
+m
+squid:S106€"9Replace this use of System.out or System.err by a logger.(ã¹©8æµàşº-HèARMAJORZ
+CODE_SMELL
+r
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(ƒœ½İùÿÿÿÿ8‡’µîº-HıARMAJORZ
+CODE_SMELL
+r
+squid:S106º"9Replace this use of System.out or System.err by a logger.(ñ¨˜şÿÿÿÿ8Ç†âıº-HÆARMAJORZ
+CODE_SMELL
+k
+squid:S106Ü"9Replace this use of System.out or System.err by a logger.(…¸›şşÿÿÿÿHBRMAJORZ
+CODE_SMELL
+lsquid:S1197f"8Move the array designator from the variable to the type.(ÂşŠ°8•ä£—º-HäARMINORZ
+CODE_SMELL
+r
+squid:S106ã"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8İìüòº-H¹BRMAJORZ
+CODE_SMELL
+csquid:S1125³")Remove the literal "false" boolean value.(¥„ÆŠøÿÿÿÿ8¿ğé«»-H¸ERMINORZ
+CODE_SMELL
+m
+squid:S106Ê"9Replace this use of System.out or System.err by a logger.(ÆÔ†«8Ù°ïª»-HâDRMAJORZ
+CODE_SMELL
+m
+squid:S106¦"9Replace this use of System.out or System.err by a logger.(Â±˜8¸†µ–»-HÏARMAJORZ
+CODE_SMELL
+r
+squid:S106§"9Replace this use of System.out or System.err by a logger.(ËşÕ´ıÿÿÿÿ8Õ°«‰º-HæARMAJORZ
+CODE_SMELL
+m
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(Ñ×°ß8òíû–º-HÕARMAJORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ‘ÛŞûÿÿÿÿ8Ù°ïª»-HáDRMAJORZ
+CODE_SMELL
+r
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(À¤±äüÿÿÿÿ8¨ú¥ïº-H“BRMAJORZ
+CODE_SMELL
+r
+squid:S106â"9Replace this use of System.out or System.err by a logger.(®›İºüÿÿÿÿ8æµàşº-HBRMAJORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8Ë‹¥–»-HçARMAJORZ
+CODE_SMELL
+r
+squid:S106–"9Replace this use of System.out or System.err by a logger.(ïœ»„ÿÿÿÿÿ8“ší²º-HØARMAJORZ
+CODE_SMELL
+r
+squid:S106Ä"9Replace this use of System.out or System.err by a logger.(ı¥‡›ÿÿÿÿÿ8Ÿ«şïº-HïDRMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheckª"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8³ƒæïº-H¢BRMAJORZ
+CODE_SMELL
+squid:UselessImportCheck"HRemove this unused import 'fr.epita.quiz.services.ConfigurationService'.(½çœşÿÿÿÿ8¿ğé«»-H·ERMINORZ
+CODE_SMELL
+m
+squid:S106¬"9Replace this use of System.out or System.err by a logger.(ùùª8Ÿ«şïº-H€BRMAJORZ
+CODE_SMELL
+’squid:S1488×"]Immediately return this expression instead of assigning it to the temporary variable "dbUrl".(Š†¯¹8¿ğé«»-H¶ERMINORZ
+CODE_SMELL
+squid:S00112Ğ"FDefine and throw a dedicated exception instead of using a generic one.(…¾Ûÿÿÿÿÿ8ş¡ø§»-H©CRMAJORZ
+CODE_SMELL
+r
+squid:S106´"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8ïÄàõº-HÑARMAJORZ
+CODE_SMELL
+r
+squid:S106ş"9Replace this use of System.out or System.err by a logger.(·—¿§ûÿÿÿÿ8äã²«»-HˆERMAJORZ
+CODE_SMELL
+squid:S3776`"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ8¨ú¥ïº-HôARCRITICALZ
+CODE_SMELL
+r
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(è˜ƒäúÿÿÿÿ8µ³¼ÿº-HİARMAJORZ
+CODE_SMELL
+r
+squid:S106Å"9Replace this use of System.out or System.err by a logger.( ²ºøÿÿÿÿ8ò³Ïÿº-HñARMAJORZ
+CODE_SMELL
+m
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(ûÿÊæ8‡’µîº-HŸBRMAJORZ
+CODE_SMELL
+m
+squid:S106À"9Replace this use of System.out or System.err by a logger.(ã¹©8æµàşº-H BRMAJORZ
+CODE_SMELL
+gsquid:S1481Ä"2Remove this unused "studentChoice" local variable.(ñÇ…Ü8¨ú¥ïº-HûARMINORZ
+CODE_SMELL
+r
+squid:S106Ÿ"9Replace this use of System.out or System.err by a logger.(†š¼øÿÿÿÿ8ß¢ì—º-HáARMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheck°"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8³ƒæïº-HÌARMAJORZ
+CODE_SMELL
+l
+squid:S106¯"9Replace this use of System.out or System.err by a logger.(”»l8òíû–º-H›BRMAJORZ
+CODE_SMELL
+m
+squid:S106İ"9Replace this use of System.out or System.err by a logger.(¶İ“ñ8õ¡îÍ¶-HÚARMAJORZ
+CODE_SMELL
+r
+squid:S106Ü"9Replace this use of System.out or System.err by a logger.(‹ÚÎîÿÿÿÿÿ8“–Êƒ»-HºBRMAJORZ
+CODE_SMELL
+˜squid:S1488"^Immediately return this expression instead of assigning it to the temporary variable "answer".(û¶Ñ•øÿÿÿÿ8¿ğé«»-H´ERMINORZ
+CODE_SMELL
+m
+squid:S106ß"9Replace this use of System.out or System.err by a logger.(‰ÁÇÅ8¤šÍ”º-HºARMAJORZ
+CODE_SMELL
+lsquid:S4973İ"9Use the "equals" method if value comparison was intended.(ŠÅ¡øÿÿÿÿ8ËŞ–ğº-H×ARMAJORZBUG
+m
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(æª¯8Êó„…»-HÅARMAJORZ
+CODE_SMELL
+r
+squid:S106»"9Replace this use of System.out or System.err by a logger.(–ÄÕöıÿÿÿÿ8Ä´ò»-HœBRMAJORZ
+CODE_SMELL
+r
+squid:S106›"9Replace this use of System.out or System.err by a logger.(‚ôˆ¯ıÿÿÿÿ8ôãŠ¨»-H«CRMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(¡•ºô8æµàşº-H¿ARMAJORZ
+CODE_SMELL
+m
+squid:S106¤"9Replace this use of System.out or System.err by a logger.(É† ©8â‚¥¨»-HõCRMAJORZ
+CODE_SMELL
+r
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(¹òÿÿÿÿÿ8×òßòº-HëARMAJORZ
+CODE_SMELL
+r
+squid:S106Ş"9Replace this use of System.out or System.err by a logger.(§ªß›úÿÿÿÿ8ïÄàõº-H¾ARMAJORZ
+CODE_SMELL
+r
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8º²”»-H£BRMAJORZ
+CODE_SMELL
+r
+squid:S106Æ"9Replace this use of System.out or System.err by a logger.(­üÿÓıÿÿÿÿ8Ç€€‚»-HğARMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheck²"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8æµàşº-HüARMAJORZ
+CODE_SMELL
+m
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(»áöÃ8Ä½°’¶-HˆBRMAJORZ
+CODE_SMELL
+k
+squid:S106q"9Replace this use of System.out or System.err by a logger.(›ğÔ8‡’µîº-HBRMAJORZ
+CODE_SMELL
+r
+squid:S106¹"9Replace this use of System.out or System.err by a logger.(òã×Êüÿÿÿÿ8×òßòº-H¡BRMAJORZ
+CODE_SMELL
+m
+squid:S106·"9Replace this use of System.out or System.err by a logger.(ØŒÌ8İìüòº-HâARMAJORZ
+CODE_SMELL
+r
+squid:S106á"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8¨ú¥ïº-HßARMAJORZ
+CODE_SMELL
+s
+squid:S899İ"<Do something with the "boolean" value returned by "hasNext".(õ¥ì8¶Ú«»-HªERMINORZVULNERABILITY
+r
+squid:S106›"9Replace this use of System.out or System.err by a logger.(™Ô”úüÿÿÿÿ8»³Êöº-HÈARMAJORZ
+CODE_SMELL
+vsquid:S1854Õ"ARemove this useless assignment to local variable "studentChoice".(û¶Å¾8¨ú¥ïº-HùARMAJORZ
+CODE_SMELL
+m
+squid:S106¨"9Replace this use of System.out or System.err by a logger.(…Ëã¶8øşº-HàARMAJORZ
+CODE_SMELL
+—squid:S1488í"bImmediately return this expression instead of assigning it to the temporary variable "connection".(Î­¡8¿ğé«»-HµERMINORZ
+CODE_SMELL
+—squid:S1488‚"]Immediately return this expression instead of assigning it to the temporary variable "quest".(ÿê–ªúÿÿÿÿ8¿ğé«»-H³ERMINORZ
+CODE_SMELL
+r
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(Ñè¹”ıÿÿÿÿ8¨ú¥ïº-H»ARMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheck¬"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8³ƒæïº-H‰BRMAJORZ
+CODE_SMELL
+r
+squid:S106±"9Replace this use of System.out or System.err by a logger.(ù¾íÖøÿÿÿÿ8‡’µîº-H¸BRMAJORZ
+CODE_SMELL
+¢ squid:ForLoopCounterChangedCheck®"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8³ƒæïº-HƒBRMAJORZ
+CODE_SMELL
+vsquid:S1854Ñ"ARemove this useless assignment to local variable "studentChoice".(ÑÅâ­8¨ú¥ïº-HşARMAJORZ
+CODE_SMELL
+r
+squid:S106Á"9Replace this use of System.out or System.err by a logger.(ÿÄ¬şÿÿÿÿ8¨ú¥ïº-HíARMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(ê›ì‰8˜£ª„»-HøARMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(º˜Šµ8õ¬ã“¶-H†BRMAJORZ
+CODE_SMELL
+rsquid:S1854î"8Remove this useless assignment to local variable "temp".(æÑäÖÿÿÿÿÿ8¨ú¥ïº-HÊARMAJORZ
+CODE_SMELL
+r
+squid:S106õ"9Replace this use of System.out or System.err by a logger.(ıÜÕëúÿÿÿÿ8Ÿ«şïº-H÷ARMAJORZ
+CODE_SMELL
+r
+squid:S106…"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8òíû–º-HÙARMAJORZ
+CODE_SMELL
+m
+squid:S106ë"9Replace this use of System.out or System.err by a logger.(Ë™æè8°”±ÿº-H‹BRMAJORZ
+CODE_SMELL
+m
+squid:S106À"9Replace this use of System.out or System.err by a logger.(†áë¤8¨ú¥ïº-HÒARMAJORZ
+CODE_SMELL
+m
+squid:S106â"9Replace this use of System.out or System.err by a logger.(ø¨ˆ“8ÍÍì«»-HºERMAJORZ
+CODE_SMELL

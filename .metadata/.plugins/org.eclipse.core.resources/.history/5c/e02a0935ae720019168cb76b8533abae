@@ -1,0 +1,28 @@
+package fr.epita.cuisine.launcher;
+
+import java.util.Scanner;
+
+public class Launcher {
+	
+	private static final String username = "manu";
+	private static final String password = "manu";
+	
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Just another Quiz application :) ");
+		
+		System.out.println("Enter your UserName: ");
+		String login = scanner.nextLine();
+		
+		System.out.println("Enter your PassWord: ");
+		String passwd = scanner.nextLine();
+		
+		if (!login.equals(username) || !password.equals(passwd)) {
+			System.out.println("User name or password wrong try again");
+		}
+		
+	}
+
+}

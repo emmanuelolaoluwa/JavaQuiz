@@ -1,0 +1,43 @@
+
+squid:S2068ˆ"V'password' detected in this expression, review this potentially hard-coded credential.(ÊªéúÿÿÿÿHå-RBLOCKERZVULNERABILITY
+j
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ÓÓ åùÿÿÿÿHç-RMAJORZ
+CODE_SMELL
+e
+squid:S106y"9Replace this use of System.out or System.err by a logger.(Ñ©öÀHê-RMAJORZ
+CODE_SMELL
+e
+squid:S106>"9Replace this use of System.out or System.err by a logger.(¢ÁÒÔHõ-RMAJORZ
+CODE_SMELL
+j
+squid:S106d"9Replace this use of System.out or System.err by a logger.(Íû…ÃıÿÿÿÿHé-RMAJORZ
+CODE_SMELL
+j
+squid:S106a"9Replace this use of System.out or System.err by a logger.(úŸ£ÿÿÿÿÿHì-RMAJORZ
+CODE_SMELL
+asquid:UselessParenthesesCheck€"!Remove these useless parentheses.(«³ñ’Hë-RMAJORZ
+CODE_SMELL
+esquid:S2589€"7Remove this expression which always evaluates to "true"(«³ñ’Hò-RMAJORZ
+CODE_SMELL
+z
+squid:S1284"LEnd this switch case with an unconditional break, return or throw statement.(¡È›Hæ-RBLOCKERZ
+CODE_SMELL
+k
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾’…†úÿÿÿÿHô-RMAJORZ
+CODE_SMELL
+‰squid:S2068€"V'password' detected in this expression, review this potentially hard-coded credential.(«³ñ’Hğ-RBLOCKERZVULNERABILITY
+k
+squid:S106„"9Replace this use of System.out or System.err by a logger.(È¾¯ÆşÿÿÿÿHí-RMAJORZ
+CODE_SMELL
+jsquid:S2589ˆ"7Remove this expression which always evaluates to "true"(ÊªéúÿÿÿÿHï-RMAJORZ
+CODE_SMELL
+e
+squid:S106c"9Replace this use of System.out or System.err by a logger.(“‚ªHñ-RMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(œÅ…¸Hè-RMAJORZ
+CODE_SMELL
+j
+squid:S106t"9Replace this use of System.out or System.err by a logger.(²÷á†øÿÿÿÿHî-RMAJORZ
+CODE_SMELL
+‰squid:S2068€"V'password' detected in this expression, review this potentially hard-coded credential.(«³ñ’Hó-RBLOCKERZVULNERABILITY

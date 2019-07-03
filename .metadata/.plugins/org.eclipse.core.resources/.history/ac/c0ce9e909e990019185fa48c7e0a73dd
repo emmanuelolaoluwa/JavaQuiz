@@ -1,0 +1,186 @@
+package fr.epita.quiz.launcher;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import fr.epita.quiz.datamodel.Answer;
+import fr.epita.quiz.datamodel.Difficulty;
+import fr.epita.quiz.datamodel.Question;
+import fr.epita.quiz.datamodel.Quiz;
+import fr.epita.quiz.exception.CreateFailedException;
+import fr.epita.quiz.services.ConfigurationService;
+import fr.epita.quiz.services.data.QuizJDBCDAO;
+
+public class Launcher {
+
+
+	public static void main(String[] args) throws SQLException , Exception {
+			
+		Scanner scanner = new Scanner(System.in);
+		QuizJDBCDAO dao = new QuizJDBCDAO();
+		
+		Object authenticated[] = authenticate(scanner);
+		
+		
+		
+		if (! (authenticated[0] instanceof Boolean) ) {
+			System.out.println("Invalid Username or Password");
+			scanner.close();
+			return;
+		}
+		
+		System.out.print("You're authenticated as a ");
+		
+		if ( Integer.parseInt(authenticated[1].toString()) == 0 ) {
+			System.out.print("Student");
+		}
+	       else {
+			System.out.print("Professeur");
+	    }
+		
+		String answer = "";
+		while (!answer.equals("q") && Integer.parseInt(authenticated[1].toString()) == 1 ) {
+
+			answer = displayMenu(scanner);
+
+			switch (answer) {
+			case "1":
+				quizCreation(scanner, dao);
+				break;
+			case "2":
+				questionCreation(scanner, dao);
+				break;
+			case "q":
+				System.out.println("Good bye!");
+				break;
+
+			default:
+				System.out.println("Option not recognized, please enter an other option");
+				break;
+			}
+		}
+		
+		System.out.println("Welcome to your aptitude test, Select a quiz to take");
+		
+		
+
+		scanner.close();
+		
+		
+		
+
+	} 
+
+	private static void quizCreation(Scanner scanner, QuizJDBCDAO dao) throws Exception {
+		System.out.println("Quiz creation ...");
+		System.out.println("Enter Quiz");
+		
+		String qu = scanner.nextLine();
+		dao.create(new Quiz(qu));
+	}
+
+	private static void questionCreation(Scanner scanner, QuizJDBCDAO dao) throws Exception {
+		System.out.println("Enter Quiz");
+		String qu = scanner.nextLine();
+		Quiz quiz = new Quiz(qu);
+		
+		System.out.println("Question creation ...");
+		System.out.print("The length of topics for this question > ");
+		int length = scanner.nextInt();
+		scanner.nextLine();
+		System.out.println("Enter Topics");
+		String[] topics = new String[length];
+		
+		for(int i = 0; i < length; i++) {
+			String word = scanner.nextLine();
+			topics[i] = word;
+		}
+		
+		
+		System.out.println("Enter your Question");
+		String quest = scanner.nextLine();
+		
+		System.out.println("Enter your your answer");
+		String ans = scanner.nextLine();
+		
+		Question question = new Question(quest, topics , Difficulty.EASY.getDifficulty()) ;
+		
+		Answer answer = new Answer(ans);
+		
+		answer.setQuestion(question);
+		answer.setQuiz(quiz);
+		
+		dao.createAll(quiz, answer, question);
+		
+		//System.out.println(answer.getQuiz()+ " " + answer.getQuestion() + " " + answer.getText() + " " + question.getTopics());
+	}
+
+
+	private static String displayMenu(Scanner scanner) {
+		String answer;
+		System.out.println("-- Menu --");
+		System.out.println("1. Create Quiz");
+		System.out.println("2. Create Question");
+		System.out.println("q. Quit the application");
+		System.out.println("What is your choice ? (1|2|q) :");
+		answer = scanner.nextLine();
+		return answer;
+	}
+
+	private static Object[] authenticate(Scanner scanner) {
+		System.out.println("Please enter your login : ");
+		String login = scanner.nextLine();
+		System.out.println("Please enter your password : ");
+		String password = scanner.nextLine();
+		
+		Object object[] = new Object[2];
+		
+		boolean result = false;
+		int user_type;
+		try {
+			
+			Connection connection = getConnection();
+			
+			PreparedStatement pstmt1 = connection.prepareStatement("SELECT * from USER where username=? and password = ?");
+			pstmt1.setString(1,login);
+			pstmt1.setString(2, password);
+			ResultSet rs = pstmt1.executeQuery();
+			
+			
+			while(rs.next()) {
+				//System.out.println(rs.getString(1)+ " " + rs.getString(2) + " " + rs.getInt(3) );
+					
+				result = rs.getString(1).equals(login) && rs.getString(2).equals(password);
+				
+				object[0] = result;
+				object[1] = rs.getInt(3);
+				
+				if ( rs.next() ) {
+					System.out.println("USER DOES NOT EXIT");
+					
+				}else {
+					
+					System.out.println("LOGGED IN");
+					
+ 				}
+				 
+				return object;
+			}
+			
+			return object;	
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		return object;
+	}
+	
+	private static Connection getConnection() throws SQLException {
+		Connection connection = DriverManager.getConnection("jdbc:h2:~/quizDBB","sa","");
+		return connection;
+	}
+
+}

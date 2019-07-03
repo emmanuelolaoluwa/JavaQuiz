@@ -1,0 +1,17 @@
+package fr.epita.quiz.datamodel;
+
+public class studentAnswer {
+
+	String answer;
+	
+	public answer(String answer) {
+		super();
+		this.answer = answer;
+	
+	}
+
+	public String getAnswer() {
+		return answer;
+	}
+	
+}

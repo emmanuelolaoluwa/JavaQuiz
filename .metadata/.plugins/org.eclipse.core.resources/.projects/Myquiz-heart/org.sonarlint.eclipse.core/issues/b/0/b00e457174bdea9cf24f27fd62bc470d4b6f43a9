@@ -1,0 +1,11 @@
+
+csquid:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHõRINFOZ
+CODE_SMELL
+qsquid:UselessImportCheck"0Remove this unused import 'java.nio.file.Paths'.(áè°¯8ó˜¬±-HùRMINORZ
+CODE_SMELL
+tsquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ó˜¬±-HúRMINORZ
+CODE_SMELL
+usquid:S1075"ARefactor your code to get this URI from a customizable parameter.(®Æ€8ş÷§¬±-H„RMINORZ
+CODE_SMELL
+}
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(Ğ’Íùÿÿÿÿ8ó˜¬±-HıRMINORZVULNERABILITY

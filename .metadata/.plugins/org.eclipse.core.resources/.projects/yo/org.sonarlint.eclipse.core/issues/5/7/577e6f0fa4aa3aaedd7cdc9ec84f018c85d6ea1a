@@ -1,0 +1,42 @@
+
+Ÿ squid:ForLoopCounterChangedCheckT"XRefactor the code in order to not assign to this loop counter from within the loop body.(÷äûÿÿÿÿHæRMAJORZ
+CODE_SMELL
+bsquid:S1444 "-Make this "public static results" field final(Ïì†ôûÿÿÿÿHçRMINORZVULNERABILITY
+Ÿ"squid:ClassVariableVisibilityCheck "SMake results a static final constant or non-public and provide accessors if needed.(Ïì†ôûÿÿÿÿHèRMINORZVULNERABILITY
+¦squid:S1598"wThis file "Answers.java" should be located in "quiz" directory, not in "/home/emmanuel/eclipse-workspace/yo/src/yo/fr".(­è LHéRCRITICALZ
+CODE_SMELL
+Zsquid:S1604,"(Make this anonymous inner class a lambda(±÷ƒşÿÿÿÿHêRMAJORZ
+CODE_SMELL
+Usquid:S1604Z"(Make this anonymous inner class a lambda(ü•¹¨HëRMAJORZ
+CODE_SMELL
+Usquid:S1604h"(Make this anonymous inner class a lambda(æÕêÊHìRMAJORZ
+CODE_SMELL
+squid:UselessImportCheck
+"TRemove this unnecessary import: same package classes are always implicitly imported.(àÖëëHíRMINORZ
+CODE_SMELL
+squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¶‡Á×HîRMINORZ
+CODE_SMELL
+“squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(÷ÏõòúÿÿÿÿHïRMINORZ
+CODE_SMELL
+Xsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHğRMINORZVULNERABILITY
+zsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(íûßHñRMAJORZ
+CODE_SMELL
+ƒsquid:S00116"PRename this field "Again" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óœ‹¶ùÿÿÿÿHòRMINORZ
+CODE_SMELL
+‚squid:S00116"ORename this field "Exit" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›²¯ÙùÿÿÿÿHóRMINORZ
+CODE_SMELL
+†squid:S00116"XRename this field "NumberStorage" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üî³ÚHôRMINORZ
+CODE_SMELL
+squid:S00115'"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(äñ‡ùÿÿÿÿHõRCRITICALZ
+CODE_SMELL
+e
+squid:S106J"9Replace this use of System.out or System.err by a logger.(•øíHöRMAJORZ
+CODE_SMELL
+rsquid:HiddenFieldCheckK"5Rename "j" which hides the field declared at line 29.(µ© ¡ıÿÿÿÿH÷RMAJORZ
+CODE_SMELL
+osquid:HiddenFieldCheckQ"7Rename "ans" which hides the field declared at line 31.(öÅHøRMAJORZ
+CODE_SMELL
+gsquid:S1854m";Remove this useless assignment to local variable "connect".(û´îHùRMAJORZ
+CODE_SMELL
+Xsquid:S1481m",Remove this unused "connect" local variable.(û´îHúRMINORZ
+CODE_SMELL

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package fr.epita.myquiz.tests;
+
+/**
+ * @author emmanuel
+ *
+ */
+public class FileHandlerTestDAO {
+
+}

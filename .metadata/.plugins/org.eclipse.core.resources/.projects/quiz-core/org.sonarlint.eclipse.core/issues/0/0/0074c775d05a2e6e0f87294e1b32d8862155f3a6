@@ -1,0 +1,142 @@
+
+„squid:S2095Æ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ğ¢šŠşÿÿÿÿ8ØÍ‰º-HCRBLOCKERZBUG
+squid:S2095˜"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(™‡ğŠ8Ó½Ãà¸-H‹CRBLOCKERZBUG
+wsquid:S2095ô"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş8ŸÅØº-HõBRBLOCKERZBUG
+|squid:S00112²"FDefine and throw a dedicated exception instead of using a generic one.(‹Š£Ô8³ğ×ª»-HÈDRMAJORZ
+CODE_SMELL
+esquid:S1172Â"+Remove this unused method parameter "quiz".(ìşÒõıÿÿÿÿ8šµöÕº-HûBRMAJORZ
+CODE_SMELL
+`squid:S1148Ì"#Use a logger to log this exception.(«È€ıÿÿÿÿ8ùô§‚»-HÜBRMINORZVULNERABILITY
+„squid:S2095µ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(³«áÕÿÿÿÿÿ8 äĞˆ»-HëBRBLOCKERZBUG
+squid:S2095î"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ñà—š8ù½á²º-H”CRBLOCKERZBUG
+r
+squid:S106ş"9Replace this use of System.out or System.err by a logger.(å×“åüÿÿÿÿ8ğ¥›ª»-H¡DRMAJORZ
+CODE_SMELL
+„squid:S2095“"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(” ™¢üÿÿÿÿ8»õù•»-HœCRBLOCKERZBUG
+„squid:S2095ç"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Æ‰şşÿÿÿÿ8ù½á²º-H¡CRBLOCKERZBUG
+squid:S2095¶"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Š–ƒ½8³ğ×ª»-HÃDRBLOCKERZBUG
+ƒsquid:S3008#"PRename this field "JDBCO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ€ã58ãáæÃº-HCRMINORZ
+CODE_SMELL
+squid:S2095á"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(×…õ‘8ù½á²º-HãBRBLOCKERZBUG
+~squid:S2095t"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Çâ¾¯8°İÛ©»-HDRBLOCKERZBUG
+Ö%squid:RedundantThrowsDeclarationCheck‹"†Remove the declaration of thrown exception 'fr.epita.quiz.exception.SearchFailedException', as it cannot be thrown from method's body.(ææôÖ8ñÆâñº-HôBRMINORZ
+CODE_SMELL
+r
+squid:S106Ç"9Replace this use of System.out or System.err by a logger.(ù°½Úùÿÿÿÿ8ŒÌ‡º-HàBRMAJORZ
+CODE_SMELL
+r
+squid:S106²"9Replace this use of System.out or System.err by a logger.(àäöşÿÿÿÿ8È¿÷ÿº-H„CRMAJORZ
+CODE_SMELL
+„squid:S2095¥"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¹„ªÀüÿÿÿÿ8Ó½Ãà¸-H¥CRBLOCKERZBUG
+~squid:S2095ö"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(²“8ù½á²º-H‘CRBLOCKERZBUG
+squid:S00112Œ"FDefine and throw a dedicated exception instead of using a generic one.(õÒéšøÿÿÿÿ8Ğ•ô•»-HˆCRMAJORZ
+CODE_SMELL
+_squid:S00108Ï")Either remove or fill this block of code.(”ı¾8³ğ×ª»-HÉDRMAJORZ
+CODE_SMELL
+psquid:S2095Î"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ŞHCRBLOCKERZBUG
+wsquid:S2095š"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş8Áİñº-HğBRBLOCKERZBUG
+Û%squid:RedundantThrowsDeclarationCheckì"†Remove the declaration of thrown exception 'fr.epita.quiz.exception.SearchFailedException', as it cannot be thrown from method's body.(Æ·¬ãùÿÿÿÿ8ó‚»-HçBRMINORZ
+CODE_SMELL
+wsquid:S2095¸"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(éÃÏ‹8ŒÌ‡º-H†CRBLOCKERZBUG
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(å×“åüÿÿÿÿ8ÃÌí¯º-HşBRMAJORZ
+CODE_SMELL
+squid:S2095’"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Îƒñ•8™­í•»-HóBRBLOCKERZBUG
+q
+squid:S106|"9Replace this use of System.out or System.err by a logger.(—ŠÏ®ÿÿÿÿÿ8››šÁº-HíBRMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLineT"<This block of commented-out lines of code should be removed.(ûÊÆêûÿÿÿÿ8ù©ğÀº-HáBRMAJORZ
+CODE_SMELL
+wsquid:S2095“"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş8ó‚»-HöBRBLOCKERZBUG
+r
+squid:S106Û"9Replace this use of System.out or System.err by a logger.(¾‰Ãıÿÿÿÿ8ó‚»-HDRMAJORZ
+CODE_SMELL
+~squid:S2095Í"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ª«ª"8È¿÷ÿº-H—CRBLOCKERZBUG
+r
+squid:S106¬"9Replace this use of System.out or System.err by a logger.(à±íİıÿÿÿÿ8ê©ô»-H£CRMAJORZ
+CODE_SMELL
+„squid:S2095”"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(âÒäòúÿÿÿÿ8™­í•»-H¢CRBLOCKERZBUG
+m
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(Ûí×Ã8ÈÌª»-H¯DRMAJORZ
+CODE_SMELL
+„squid:S2095‘"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(›ÛÒ°ùÿÿÿÿ8™­í•»-H’CRBLOCKERZBUG
+€squid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(ÒÅó²8ñÆâñº-HòBRMAJORZ
+CODE_SMELL
+“squid:S2293•"YReplace the type specification in this constructor call with the diamond operator ("<>").(ı¡£Íÿÿÿÿÿ8ŸÅØº-HİBRMINORZ
+CODE_SMELL
+”squid:S1488c"bImmediately return this expression instead of assigning it to the temporary variable "connection".(«ó÷‘ûÿÿÿÿH CRMINORZ
+CODE_SMELL
+l
+squid:S106ü"9Replace this use of System.out or System.err by a logger.(†±Ê.8¤ï‰Âº-H»DRMAJORZ
+CODE_SMELL
+m
+squid:S106ª"9Replace this use of System.out or System.err by a logger.(Ğ˜ğ©8ŒÌ‡º-H¤CRMAJORZ
+CODE_SMELL
+`squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ò†ğ•»-HßBRMINORZVULNERABILITY
+dsquid:S00108§")Either remove or fill this block of code.(æÜ×Şøÿÿÿÿ8ùì¢›»-HúBRMAJORZ
+CODE_SMELL
+„squid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ã§‰·şÿÿÿÿ8Ó½Ãà¸-HøBRBLOCKERZBUG
+„squid:S2095¬"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Œ†×äşÿÿÿÿ8Œ™â¸-HŒCRBLOCKERZBUG
+„squid:S2095¸"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(•û–ûÿÿÿÿ8³ğ×ª»-HÇDRBLOCKERZBUG
+wsquid:S2095è"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰Ş8Óı‹€»-HæBRBLOCKERZBUG
+„squid:S2095ò"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(œ·®şÿÿÿÿ8ù½á²º-HüBRBLOCKERZBUG
+squid:S2095·"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¦Èş…8³ğ×ª»-H×DRBLOCKERZBUG
+Û%squid:RedundantThrowsDeclarationCheckÈ"†Remove the declaration of thrown exception 'fr.epita.quiz.exception.SearchFailedException', as it cannot be thrown from method's body.(×»ê±üÿÿÿÿ8Óı‹€»-HîBRMINORZ
+CODE_SMELL
+msquid:S1197¯"8Move the array designator from the variable to the type.(ŸË8ŒÌ‡º-HƒCRMINORZ
+CODE_SMELL
+squid:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Š–ƒ½8™­í•»-HÛBRBLOCKERZBUG
+squid:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ú‘´›8Óı‹€»-H‚CRMINORZ
+CODE_SMELL
+„squid:S2095¡"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‡ä»Úùÿÿÿÿ8Ó½Ãà¸-HåBRBLOCKERZBUG
+squid:S2095¨"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æ³¶ƒ8Ó½Ãà¸-HèBRBLOCKERZBUG
+squid:S2293É"YReplace the type specification in this constructor call with the diamond operator ("<>").(–»Ä’8Áİñº-HCRMINORZ
+CODE_SMELL
+‹squid:S00116+"VRename this field "INSERT_QUIZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï…³8ëÚî«»-H¾ERMINORZ
+CODE_SMELL
+squid:S00116,"ZRename this field "INSERT_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûˆª8ëÚî«»-H¿ERMINORZ
+CODE_SMELL
+™squid:S00116-"_Rename this field "INSERT_QUIZ_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¡îãÿÿÿÿÿ8ëÚî«»-HÀERMINORZ
+CODE_SMELL
+Œsquid:S00116."XRename this field "INSERT_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…âµI8ëÚî«»-HÁERMINORZ
+CODE_SMELL
+–squid:S00116/"aRename this field "INSERT_QUESTION_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø„„…8ëÚî«»-HÂERMINORZ
+CODE_SMELL
+‘squid:S001160"WRename this field "INSERT_TOPIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óµöâøÿÿÿÿ8ëÚî«»-HÃERMINORZ
+CODE_SMELL
+šsquid:S001161"`Rename this field "INSERT_TOPIC_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³Õù¾ùÿÿÿÿ8ëÚî«»-HÄERMINORZ
+CODE_SMELL
+”squid:S001163"_Rename this field "INSERT_OPEN_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æİ©Š8ëÚî«»-HÅERMINORZ
+CODE_SMELL
+’squid:S001165"]Rename this field "INSERT_MCQQUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ú²8ëÚî«»-HÆERMINORZ
+CODE_SMELL
+•squid:S001166"[Rename this field "INSERT_MCQANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ªâÕ“øÿÿÿÿ8ëÚî«»-HÇERMINORZ
+CODE_SMELL
+’squid:S001167"XRename this field "INSERT_OPTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛşìÛùÿÿÿÿ8ëÚî«»-HÈERMINORZ
+CODE_SMELL
+squid:S001168"[Rename this field "INSERT_MCQ_TOPIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÜğP8ëÚî«»-HÉERMINORZ
+CODE_SMELL
+squid:S001169"dRename this field "INSERT_MCQ_TOPIC_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¡Úûÿÿÿÿ8ëÚî«»-HÊERMINORZ
+CODE_SMELL
+œsquid:S00116<"bRename this field "GET_MCQ_QUESTION_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê¼®ûüÿÿÿÿ8ëÚî«»-HËERMINORZ
+CODE_SMELL
+˜squid:S00116="^Rename this field "GET_SINGLE_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷áİøÿÿÿÿ8ëÚî«»-HÌERMINORZ
+CODE_SMELL
+‘squid:S00116?"WRename this field "GET_ALL_QUIZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾Äãıÿÿÿÿÿ8ëÚî«»-HÍERMINORZ
+CODE_SMELL
+Œsquid:S00116@"WRename this field "SEARCH_TOPIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹œ®†8ëÚî«»-HÎERMINORZ
+CODE_SMELL
+™squid:S00116B"dRename this field "SET_FOREIGN_KEY_CHECK_OFF" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö‘ªÑ8ëÚî«»-HÏERMINORZ
+CODE_SMELL
+squid:S00116C"VRename this field "UPDATE_QUIZ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë‹Ï¼üÿÿÿÿ8ëÚî«»-HĞERMINORZ
+CODE_SMELL
+™squid:S00116D"_Rename this field "UPDATE_QUIZ_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢¿¸Šúÿÿÿÿ8ëÚî«»-HÑERMINORZ
+CODE_SMELL
+˜squid:S00116E"^Rename this field "UPDATE_MCQ_QUESTION" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ÿèüøÿÿÿÿ8ëÚî«»-HÒERMINORZ
+CODE_SMELL
+—squid:S00116F"cRename this field "SET_FOREIGN_KEY_CHECK_ON" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€“ë"8ëÚî«»-HÓERMINORZ
+CODE_SMELL
+ksquid:S1135»"2Complete the task associated to this TODO comment.(ŸÑ“úÿÿÿÿ8ëÚî«»-HÔERINFOZ
+CODE_SMELL
+dsquid:S00108Á")Either remove or fill this block of code.(æÜ×Şøÿÿÿÿ8ëÚî«»-HÕERMAJORZ
+CODE_SMELL

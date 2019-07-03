@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/emmanuel/eclipse-workspace/Myquiz-logger"/>
+		<item value="/home/emmanuel/eclipse-workspace"/>
+		<item value="/home/emmanuel/eclipse-workspace/Myquiz"/>
+		<item value="/home/emmanuel/eclipse-workspace/classexcercises"/>
+	</list>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="608"/>
+		<item key="DIALOG_Y_ORIGIN" value="310"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/emmanuel/eclipse-workspace/yo"/>
+			<item value="/home/emmanuel/eclipse-workspace/online quiz"/>
+			<item value="/home/emmanuel/eclipse-workspace/quiz-logging"/>
+			<item value="/home/emmanuel/eclipse-workspace/quiz-core"/>
+			<item value="/home/emmanuel/eclipse-workspace/myquiz"/>
+			<item value="/home/emmanuel/eclipse-workspace/Myquiz-logger"/>
+			<item value="/home/emmanuel/eclipse-workspace/Myquiz-heart"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

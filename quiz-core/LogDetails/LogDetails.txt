@@ -1,0 +1,88 @@
+2019-06-30-15:11:16.315 - Test logging - [This is a test message for information] --- INFO
+2019-06-30-15:11:16.344 - Test logging - [This is an alert7777777777777777] --- ALERT
+2019-06-30-15:11:16.345 - Test logging - [This is a bug] --- DEBUG
+2019-06-30-15:11:16.345 - Test logging - [This is an error] --- ERROR
+2019-06-30-15:25:16.806 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-15:27:10.338 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:28:25.138 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:30:46.456 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:35:41.805 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-15:36:14.940 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:37:05.630 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:40:44.161 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:51:02.934 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-15:52:04.291 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:52:04.329 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-15:53:05.394 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:53:05.416 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-15:54:21.642 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:54:21.661 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-15:55:59.999 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-15:56:00.024 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-16:02:55.772 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:02:55.899 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-16:07:59.709 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:13:52.579 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:14:06.952 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:14:06.961 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:28:01.401 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:28:01.412 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:29:49.861 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:34:24.885 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:34:24.914 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:34:24.917 - Test - [Error inserting open questions] --- ERROR
+2019-06-30-16:38:45.365 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:39:10.656 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-06-30-16:39:10.661 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-06-30-16:39:40.177 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-00:56:38.163 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-00:57:15.929 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-00:57:15.932 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-07-01-00:57:53.092 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:06:12.749 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:06:12.774 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-07-01-01:06:12.775 - Test - [Error inserting open questions] --- ERROR
+2019-07-01-01:38:24.371 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-07-01-01:38:43.576 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:38:43.674 - Test - [CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation] --- ALERT
+2019-07-01-01:39:19.801 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:48:22.816 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:48:36.783 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-01:49:05.688 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-12:56:59.218 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-12:57:31.392 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-18:43:09.784 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-18:49:05.227 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-18:49:35.417 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-18:50:34.804 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-18:53:52.199 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-19:17:59.771 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-19:46:58.231 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-19:52:19.911 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-19:54:06.670 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-20:12:01.710 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-20:28:50.165 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-20:29:14.701 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-20:32:23.621 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-01-20:33:46.164 - Test - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-02-02:56:12.689 - Test - [Search for quiz failed] --- ERROR
+2019-07-02-02:56:41.177 - Test - [Search for quiz failed] --- ERROR
+2019-07-02-02:58:15.403 - Test - [Search for quiz failed] --- ERROR
+2019-07-02-02:58:15.405 - Test - [Access to database failed] --- ALERT
+2019-07-02-03:25:40.904 - Test - [Search using topics failed] --- ERROR
+2019-07-02-03:25:41.028 - Test - [Access to database failed] --- ALERT
+2019-07-02-03:26:28.467 - Test - [Search using topics failed] --- ERROR
+2019-07-02-03:26:28.469 - Test - [Access to database failed] --- ALERT
+2019-07-02-03:29:13.312 - Test - [Search using topics failed] --- ERROR
+2019-07-02-03:29:13.314 - Test - [Access to database failed] --- ALERT
+2019-07-03-04:52:22.365 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
+2019-07-03-04:52:22.377 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
+2019-07-03-04:53:27.718 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
+2019-07-03-04:53:27.733 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
+2019-07-03-04:55:46.411 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
+2019-07-03-04:55:46.429 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
+2019-07-03-04:57:45.038 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
+2019-07-03-04:57:45.052 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
+2019-07-03-05:00:14.656 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
+2019-07-03-05:00:14.670 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
+2019-07-03-05:09:47.018 - QUIZJDBCO LOGGER - [First List Empty check Second] --- ALERT

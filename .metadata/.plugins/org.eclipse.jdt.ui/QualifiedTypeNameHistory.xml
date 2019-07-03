@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="fr.epita.geometry.datamodel.Square"/>
+<fullyQualifiedTypeName name="fr.epita.factorial.datamodel.factorial"/>
+<fullyQualifiedTypeName name="fr.epita.me.datamodel.Stuff"/>
+<fullyQualifiedTypeName name="fr.epita.me.datamodel.Stuff.HelloWorld"/>
+<fullyQualifiedTypeName name="java.nio.file.Files"/>
+<fullyQualifiedTypeName name="java.nio.file.Paths"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FilenameFilter"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+<fullyQualifiedTypeName name="java.io.StringWriter"/>
+<fullyQualifiedTypeName name="fr.epita.myquiz.datamodel.Answer"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.exception.DeleteFailedException"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.exception.DataAccessException"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.datamodel.Question"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.datamodel.Mcqanswer"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.services.data.QuizJDBCDAO"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.datamodel.studentQuestion"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.datamodel.studentAnswer"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.datamodel.Difficulty"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.exception.SearchFailedException"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.services.ConfigurationService"/>
+<fullyQualifiedTypeName name="fr.epita.quiz.logger.Logger"/>
+</qualifiedTypeNameHistroy>

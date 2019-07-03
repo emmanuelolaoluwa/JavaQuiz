@@ -1,0 +1,5 @@
+1557442140666	Delete element
+1557442815167	Extract method 'authentication'
+1557443813326	Extract method 'createQuiz'
+1557443830664	Extract method 'questionCreation'
+1557443847477	Extract method 'deleteQuiz'

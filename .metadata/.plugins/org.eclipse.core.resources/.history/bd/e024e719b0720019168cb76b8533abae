@@ -1,0 +1,54 @@
+package fr.epita.cuisine.launcher;
+
+import java.util.Scanner;
+
+public class Launcher {
+	
+	
+	
+	private static final String username = "manu";
+	private static final String password = "manu";
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Just another Quiz application :) ");
+		
+		Scanner scanner = new Scanner(System.in);
+		boolean authentication = authentication(scanner);
+		if (authentication) {
+			scanner.close();
+			System.out.println("Invalid UserName or PassWord tryagain ....");
+			return;
+		}
+		
+		System.out.println("Successfully authenticated");
+		System.out.println("Select your path \n 1 - Create Quiz \n 2 - Question Creation \n 3 - Delete Quiz");
+		String ans = scanner.nextLine();
+		
+		
+		
+		switch (ans) {
+		case "1":
+			System.out.println("Creating Quiz ....");
+			break;
+		case "2":
+			System.out.println("Question Creation ....");
+			break;
+		case "3":
+			System.out.println("Deleting Quiz");
+			break;
+		default:
+			break;
+		}
+	}
+
+	private static boolean authentication(Scanner scanner) {
+		System.out.println("Enter your UserName: ");
+		String login = scanner.nextLine();
+		
+		System.out.println("Enter your PassWord: ");
+		String passwd = scanner.nextLine();
+		
+			return !login.equals(username) || !password.equals(passwd);
+	}
+}

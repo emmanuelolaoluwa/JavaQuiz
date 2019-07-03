@@ -1,0 +1,17 @@
+package fr.ecla.practice.launcher;
+
+
+import fr.ecla.practice.datamodel.Book;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		
+		Book book1 = new Book("Manu Porter", "Manu", 500, "Anglais");
+	
+		System.out.println(book1.title);
+	}
+	
+
+}

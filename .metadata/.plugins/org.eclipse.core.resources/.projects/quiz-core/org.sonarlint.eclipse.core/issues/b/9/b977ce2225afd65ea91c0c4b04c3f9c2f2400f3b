@@ -1,0 +1,19 @@
+
+d
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Äş!H±CRMAJORZ
+CODE_SMELL
+º%squid:RedundantThrowsDeclarationCheck"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8··¨»-HµCRMINORZ
+CODE_SMELL
+Xsquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH´CRMINORZVULNERABILITY
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(”´¾ÆşÿÿÿÿH°CRMAJORZ
+CODE_SMELL
+jsquid:S1135$"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ƒƒ„Øµ-H®CRINFOZ
+CODE_SMELL
+csquid:S11352"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH³CRINFOZ
+CODE_SMELL
+e
+squid:S106-"9Replace this use of System.out or System.err by a logger.(ò°íüH­CRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ÿµâë8°³•¨»-HíCRMAJORZ
+CODE_SMELL
