@@ -9,11 +9,6 @@ package fr.epita.quiz.exception;
  */
 public class DeleteFailedException extends DataAccessException{
 	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -217007312198536628L;
-
 	public DeleteFailedException(Object badInput) {
 		super(badInput);
 	}

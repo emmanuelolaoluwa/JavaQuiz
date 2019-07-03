@@ -90,13 +90,13 @@ public class Launcher {
  * 
  */
 	 
-public static void main(String[] args) throws Exception {
+public static void main(String[] args) throws SQLException , Exception {
 			
 		Scanner scanner = new Scanner(System.in);
 		QuizJDBCDAO dao = new QuizJDBCDAO();
 		Connection connection = getConnection();
 		
-		Object[] authenticated = QuizJDBCDAO.authenticate(scanner,connection );
+		Object authenticated [] = QuizJDBCDAO.authenticate(scanner,connection );
 		
 		if (! (authenticated[0] instanceof Boolean) ) {
 			System.out.println("Invalid Username or Password");
@@ -234,7 +234,7 @@ public static void main(String[] args) throws Exception {
 						countWrong++;
 						countTotal++;
 					}
-				//	temp = "";
+					temp = "";
 				 
 				 
 			}
@@ -370,7 +370,7 @@ private static void questionCreation(Scanner scanner, QuizJDBCDAO dao) throws Ex
 		String exiter = "";
 		String quest;
 		String ans;
-		String[] topic;
+		String topic[];
 
 		while (! exiter.equals("q") ) {
 
@@ -515,8 +515,8 @@ private static void questionCreation(Scanner scanner, QuizJDBCDAO dao) throws Ex
 **/
 private static String questCreation(Scanner scanner) {
 		System.out.println("Enter your Question");
-		return scanner.nextLine();
-	
+		String quest = scanner.nextLine();
+		return quest;
 	}
 /**
  * answerCreation()	
@@ -619,7 +619,8 @@ private static String questionMenu(Scanner scanner) {
  */
 
 private static Connection getConnection() throws Exception {
-		return DriverManager.getConnection("jdbc:h2:tcp://localhost/./database/quizDBB","sa", pass());
+		Connection connection = DriverManager.getConnection("jdbc:h2:tcp://localhost/./database/quizDBB","sa", pass());
+		return connection;
 	} 
 /**
  * getAllQuiz()
@@ -692,7 +693,7 @@ private static void search(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	} else {
 		System.out.println("Enter a valid option");
 	}
-	} while ( ! isNumber );
+	} while (isNumber == false);
 	
 }
 
@@ -729,8 +730,9 @@ FileInputStream ips = new FileInputStream(confFile);
 props.load(ips);
 
 //using the properties
-return props.getProperty("db.password", "");
+String dbpass = props.getProperty("db.password", "");
 
+return dbpass;
 }
 private static void delete(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	System.out.println("Enter quiz to delete");

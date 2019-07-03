@@ -18,7 +18,7 @@ public class ConfigurationService {
 	private ConfigurationService() {
 		// properties loading
 		try {
-			File confFile = new File(defaultConfigFileLocation);
+			File confFile = new File("conf.properties");
 			FileInputStream ips = new FileInputStream(confFile);
 			props.load(ips);
 			init =true;

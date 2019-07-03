@@ -90,13 +90,13 @@ public class Launcher {
  * 
  */
 	 
-public static void main(String[] args) throws Exception {
+public static void main(String[] args)  Exception {
 			
 		Scanner scanner = new Scanner(System.in);
 		QuizJDBCDAO dao = new QuizJDBCDAO();
 		Connection connection = getConnection();
 		
-		Object[] authenticated = QuizJDBCDAO.authenticate(scanner,connection );
+		Object authenticated [] = QuizJDBCDAO.authenticate(scanner,connection );
 		
 		if (! (authenticated[0] instanceof Boolean) ) {
 			System.out.println("Invalid Username or Password");
@@ -234,7 +234,7 @@ public static void main(String[] args) throws Exception {
 						countWrong++;
 						countTotal++;
 					}
-				//	temp = "";
+					temp = "";
 				 
 				 
 			}
@@ -370,7 +370,7 @@ private static void questionCreation(Scanner scanner, QuizJDBCDAO dao) throws Ex
 		String exiter = "";
 		String quest;
 		String ans;
-		String[] topic;
+		String topic[];
 
 		while (! exiter.equals("q") ) {
 
@@ -692,7 +692,7 @@ private static void search(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	} else {
 		System.out.println("Enter a valid option");
 	}
-	} while ( ! isNumber );
+	} while (isNumber == false);
 	
 }
 

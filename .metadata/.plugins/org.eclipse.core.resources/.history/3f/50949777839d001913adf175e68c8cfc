@@ -613,16 +613,8 @@ public void delete(String quizName) throws SearchFailedException{
 	}
 
 }
-/**
- * insert student score in the database, if a problem occurs then it throws an
- * {@link CreateFailedException} {
- * dao.updateStudentQuiz(score, quiz name); }catch(CreateFailed e){ //log exception }
- * 
- * @param quiz
- * @throws CreateFailedException
- **/
 
-public void updateStudentQuiz(int score, String quiz_name) throws CreateFailedException {
+public void updateStudentQuiz(int score, String quiz_name) throws Exception {
 	
 	try  (Connection connection = getConnection()) 
 	{
@@ -636,9 +628,9 @@ public void updateStudentQuiz(int score, String quiz_name) throws CreateFailedEx
 } catch (org.h2.jdbc.JdbcSQLException sqle) {
 	
 	System.out.println("Update student score effor");
-	JDBCO.logAlert("UPDATE Student ERROR : User quiz could not be added");
+	JDBCO.logAlert("UPDATE CLASS ERROR : Insert failed user tried adding existing quiz : primay key violation");
 } catch (Exception sqle) {
-	JDBCO.logBug("UPDATE Student ERROR :Update failed");
+
 }
 }
 

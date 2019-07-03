@@ -90,7 +90,7 @@ public class Launcher {
  * 
  */
 	 
-public static void main(String[] args) throws Exception {
+public static void main(String[] args) throws SQLException , Exception {
 			
 		Scanner scanner = new Scanner(System.in);
 		QuizJDBCDAO dao = new QuizJDBCDAO();
@@ -234,7 +234,7 @@ public static void main(String[] args) throws Exception {
 						countWrong++;
 						countTotal++;
 					}
-				//	temp = "";
+					temp = "";
 				 
 				 
 			}
@@ -370,7 +370,7 @@ private static void questionCreation(Scanner scanner, QuizJDBCDAO dao) throws Ex
 		String exiter = "";
 		String quest;
 		String ans;
-		String[] topic;
+		String topic[];
 
 		while (! exiter.equals("q") ) {
 

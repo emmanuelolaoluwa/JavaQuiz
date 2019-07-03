@@ -7,6 +7,8 @@ import fr.epita.quiz.datamodel.Answer;
 import fr.epita.quiz.datamodel.Difficulty;
 import fr.epita.quiz.datamodel.Question;
 import fr.epita.quiz.datamodel.Quiz;
+import fr.epita.quiz.exception.CreateFailedException;
+import fr.epita.quiz.exception.SearchFailedException;
 import fr.epita.quiz.services.ConfigurationService;
 import fr.epita.quiz.services.data.QuizJDBCDAO;
 
