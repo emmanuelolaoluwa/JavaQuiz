@@ -2,6 +2,8 @@ package fr.epita.quiz.tests;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.List;
+
 import fr.epita.quiz.datamodel.Quiz;
 import fr.epita.quiz.exception.CreateFailedException;
 import fr.epita.quiz.exception.DeleteFailedException;

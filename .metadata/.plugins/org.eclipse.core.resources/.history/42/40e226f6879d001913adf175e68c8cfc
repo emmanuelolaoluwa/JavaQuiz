@@ -194,7 +194,7 @@ public static void main(String[] args) throws Exception {
 					 System.out.println("Enter option");
 					 String opt = scanner.nextLine();
 					 opt = opt.toLowerCase();
-				
+					 @SuppressWarnings("unused")
 					String studentChoice = "";
 					 
 					 switch(opt)
@@ -237,7 +237,7 @@ public static void main(String[] args) throws Exception {
 						countWrong++;
 						countTotal++;
 					}
-				
+				//	temp = "";
 				 
 				 
 			}

@@ -194,7 +194,7 @@ public static void main(String[] args) throws Exception {
 					 System.out.println("Enter option");
 					 String opt = scanner.nextLine();
 					 opt = opt.toLowerCase();
-				
+					 @SuppressWarnings("unused")
 					String studentChoice = "";
 					 
 					 switch(opt)
@@ -237,7 +237,7 @@ public static void main(String[] args) throws Exception {
 						countWrong++;
 						countTotal++;
 					}
-				
+				//	temp = "";
 				 
 				 
 			}
@@ -725,7 +725,7 @@ private static void update(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 }
 
 
-public static String pass() throws IOException {
+public static String pass() throws CreateFailedException, IOException {
 Properties props = new Properties();
 File confFile = new File("conf.properties");
 FileInputStream ips = new FileInputStream(confFile);

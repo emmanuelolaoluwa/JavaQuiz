@@ -12,7 +12,7 @@ public class DataAccessException extends Exception {
 		return faultInstance;
 	}
 
-	private final Object faultInstance;
+	private Object faultInstance;
 	
 	
 	public DataAccessException(Object faultInstance) {
