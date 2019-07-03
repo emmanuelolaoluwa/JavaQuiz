@@ -649,7 +649,7 @@ public void getStudentScores() throws Exception {
 		System.out.println("StudentID - " + id);
 		System.out.println("StudentName -" + username);
 		System.out.println("StudentScore - " + score);
-		System.out.println("Quiz - " + quizname);
+		System.out.println("Quiz" + quizname);
 		System.out.println("------------------");
 	}
 	rs.close();

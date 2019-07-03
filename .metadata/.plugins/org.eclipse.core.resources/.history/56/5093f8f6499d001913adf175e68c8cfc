@@ -63,15 +63,13 @@ public class QuizJDBCDAO {
 	private String GET_ALL_QUIZ = "Select * from quiz";
 	private String SEARCH_TOPIC = "select question.question from question join topic_question on question.q_id = topic_question.q_id join topic on topic.t_id = topic_question.q_id where topic.name LIKE ?";
 	private String SEARCH_MCQ_TOPICS = "select question from mcqquestion join mcq_topic_question on mcqquestion.question_id = mcq_topic_question.question_id join mcq_topic on mcq_topic_question.question_id = mcq_topic.topic_id where mcq_topic.topics like ?";
-	private String INSERT_SCORE = "insert into student_submission(username, score, quizname) values ('manu',?,?)";
-
 	
 	private String SET_FOREIGN_KEY_CHECK_OFF = "SET FOREIGN_KEY_CHECKS=0";
 	private String UPDATE_QUIZ = "UPDATE QUIZ SET NAME=? WHERE QUIZ.NAME = ?";
 	private String UPDATE_QUIZ_QUESTION = "UPDATE QUIZ_QUESTION SET NAME = ? WHERE QUIZ_QUESTION.NAME = ?";
 	private String UPDATE_MCQ_QUESTION = "UPDATE MCQQUESTION SET NAME=? WHERE MCQQUESTION.NAME=?";
 	private String SET_FOREIGN_KEY_CHECK_ON = "SET FOREIGN_KEY_CHECKS=1";
-	private String GET_STUDENT_SCORE = "SELECT * from student_submission";
+	private String GET_STUDENT_SCORE = "SELECT * from studentsubmissions";
 	/**
 	 * 
 	 * QUIZJBBCO 
@@ -614,25 +612,10 @@ public void delete(String quizName) throws SearchFailedException{
 
 }
 
-public void updateStudentQuiz(int score, String quiz_name) throws Exception {
+public void updateStudentQuiz() throws Exception {
 	
-	try  (Connection connection = getConnection()) 
-	{
-	PreparedStatement pstmt1 = connection.prepareStatement(INSERT_SCORE);
-	pstmt1.setInt(1, score);
-	pstmt1.setString(2, quiz_name);
-	pstmt1.execute();
-	
-	
-	
-} catch (org.h2.jdbc.JdbcSQLException sqle) {
-	
-	System.out.println("Update student score effor");
-	JDBCO.logAlert("UPDATE CLASS ERROR : Insert failed user tried adding existing quiz : primay key violation");
-} catch (Exception sqle) {
+}
 
-}
-}
 
 public void getStudentScores() throws Exception {
 	try  (Connection connection = getConnection()) 
@@ -646,17 +629,16 @@ public void getStudentScores() throws Exception {
 		String score = rs.getString("SCORE");
 		String quizname = rs.getString("QUIZNAME");
 		
-		System.out.println("StudentID - " + id);
-		System.out.println("StudentName -" + username);
-		System.out.println("StudentScore - " + score);
-		System.out.println("Quiz - " + quizname);
+		System.out.println(id);
+		System.out.println(username);
+		System.out.println(score);
+		System.out.println(quizname);
 		System.out.println("------------------");
 	}
 	rs.close();
 	
 } catch (Exception e) {
 	JDBCO.logError("Error inserting open questions");
-	e.printStackTrace();
 }	
 }
 

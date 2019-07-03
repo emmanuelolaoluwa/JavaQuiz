@@ -71,7 +71,7 @@ public class QuizJDBCDAO {
 	private String UPDATE_QUIZ_QUESTION = "UPDATE QUIZ_QUESTION SET NAME = ? WHERE QUIZ_QUESTION.NAME = ?";
 	private String UPDATE_MCQ_QUESTION = "UPDATE MCQQUESTION SET NAME=? WHERE MCQQUESTION.NAME=?";
 	private String SET_FOREIGN_KEY_CHECK_ON = "SET FOREIGN_KEY_CHECKS=1";
-	private String GET_STUDENT_SCORE = "SELECT * from student_submission";
+	private String GET_STUDENT_SCORE = "SELECT * from studentsubmissions";
 	/**
 	 * 
 	 * QUIZJBBCO 
@@ -619,7 +619,7 @@ public void updateStudentQuiz(int score, String quiz_name) throws Exception {
 	try  (Connection connection = getConnection()) 
 	{
 	PreparedStatement pstmt1 = connection.prepareStatement(INSERT_SCORE);
-	pstmt1.setInt(1, score);
+	pstmt1.setInt(1, );
 	pstmt1.setString(2, quiz_name);
 	pstmt1.execute();
 	
@@ -627,12 +627,12 @@ public void updateStudentQuiz(int score, String quiz_name) throws Exception {
 	
 } catch (org.h2.jdbc.JdbcSQLException sqle) {
 	
-	System.out.println("Update student score effor");
-	JDBCO.logAlert("UPDATE CLASS ERROR : Insert failed user tried adding existing quiz : primay key violation");
-} catch (Exception sqle) {
+	System.out.println("This question has been sucessfully added");
+	JDBCO.logAlert("CREATE ALL CLASS : Insert failed user tried adding existing quiz : primay key violation");
+} catch (SQLException sqle) {
+	throw new CreateFailedException(quiz);
+}
 
-}
-}
 
 public void getStudentScores() throws Exception {
 	try  (Connection connection = getConnection()) 
@@ -646,17 +646,16 @@ public void getStudentScores() throws Exception {
 		String score = rs.getString("SCORE");
 		String quizname = rs.getString("QUIZNAME");
 		
-		System.out.println("StudentID - " + id);
-		System.out.println("StudentName -" + username);
-		System.out.println("StudentScore - " + score);
-		System.out.println("Quiz - " + quizname);
+		System.out.println(id);
+		System.out.println(username);
+		System.out.println(score);
+		System.out.println(quizname);
 		System.out.println("------------------");
 	}
 	rs.close();
 	
 } catch (Exception e) {
 	JDBCO.logError("Error inserting open questions");
-	e.printStackTrace();
 }	
 }
 

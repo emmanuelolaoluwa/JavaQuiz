@@ -138,7 +138,7 @@ public static void main(String[] args) throws SQLException , Exception {
 				delete(dao, scanner);
 				break;
 			case "7":
-				getScore(dao);
+				getScore(dao, scanner);
 				break;
 			case "q":
 				System.out.println("Good bye!");
@@ -750,7 +750,7 @@ private static void delete(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 }
 
 
-private static void getScore(QuizJDBCDAO dao) throws Exception {
+private static void getScore(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	
 	dao.getStudentScores();
 

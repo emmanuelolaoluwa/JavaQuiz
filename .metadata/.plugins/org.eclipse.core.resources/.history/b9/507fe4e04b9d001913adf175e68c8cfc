@@ -646,10 +646,10 @@ public void getStudentScores() throws Exception {
 		String score = rs.getString("SCORE");
 		String quizname = rs.getString("QUIZNAME");
 		
-		System.out.println("StudentID - " + id);
-		System.out.println("StudentName -" + username);
-		System.out.println("StudentScore - " + score);
-		System.out.println("Quiz - " + quizname);
+		System.out.println(id);
+		System.out.println(username);
+		System.out.println(score);
+		System.out.println(quizname);
 		System.out.println("------------------");
 	}
 	rs.close();

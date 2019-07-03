@@ -137,9 +137,6 @@ public static void main(String[] args) throws SQLException , Exception {
 			case "6":
 				delete(dao, scanner);
 				break;
-			case "7":
-				getScore(dao);
-				break;
 			case "q":
 				System.out.println("Good bye!");
 				System.exit(0);
@@ -279,8 +276,6 @@ public static void main(String[] args) throws SQLException , Exception {
 		
 		System.out.println("You got: " + countCorrect + "/" + countTotal);
 		System.out.println("You missed: " + countWrong);
-		
-		dao.updateStudentQuiz(countCorrect, questiontype);
 		
 		scanner.close();
 
@@ -582,7 +577,7 @@ private static String displayMenu(Scanner scanner) {
 		System.out.println("4. Search for quiz");
 		System.out.println("5. Update Quiz");
 		System.out.println("6. Delete Quiz");
-		System.out.println("7. View Students Submissions");
+		
 		System.out.println("q. Quit the application");
 		System.out.println("What is your choice ? (1|2|q) :");
 		answer = scanner.nextLine();
@@ -746,13 +741,6 @@ private static void delete(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	
 	dao.delete(deleteName);
 	
-
-}
-
-
-private static void getScore(QuizJDBCDAO dao) throws Exception {
-	
-	dao.getStudentScores();
 
 }
 }

@@ -750,7 +750,7 @@ private static void delete(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 }
 
 
-private static void getScore(QuizJDBCDAO dao) throws Exception {
+private static void getScore(QuizJDBCDAO dao, Scanner scanner) throws Exception {
 	
 	dao.getStudentScores();
 

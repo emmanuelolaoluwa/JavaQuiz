@@ -86,3 +86,5 @@
 2019-07-03-05:00:14.656 - QUIZJDBCO LOGGER - [Search using topics failed] --- ERROR
 2019-07-03-05:00:14.670 - QUIZJDBCO LOGGER - [Access to database failed] --- ALERT
 2019-07-03-05:09:47.018 - QUIZJDBCO LOGGER - [First List Empty check Second] --- ALERT
+2019-07-03-06:30:28.411 - QUIZJDBCO LOGGER - [Error inserting open questions] --- ERROR
+2019-07-03-06:33:03.279 - QUIZJDBCO LOGGER - [Error inserting open questions] --- ERROR
