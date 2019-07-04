@@ -221,7 +221,7 @@ public class Launcher {
 			}
 		}
 
-		System.out.println("\n Welcome to your aptitude test, Select a quiz to take. Enter the text not the number");
+		System.out.println("\n Welcome to your aptitude test, Select a quiz to take. Enter the Quiz text not the serial number");
 
 		getAllQuiz(dao);
 
