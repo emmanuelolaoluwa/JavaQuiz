@@ -57,7 +57,7 @@ public class QuizJDBCDAO {
 	private String INSERT_MCQ_TOPIC_QUESTION = "insert into MCQ_TOPIC_QUESTION(question_id, topic_id) values ((SELECT question_id FROM mcqquestion ORDER BY question_id DESC LIMIT 1), (SELECT topic_id FROM mcq_topic ORDER BY topic_id DESC LIMIT 1))" ;
 
 	
-	private String GET_MCQ_QUESTION_ANSWER = "SELECT quiz.name, mcqquestion.question, mcqanswer.option1, mcqanswer.option2, mcqanswer.option3, mcqanswer.option4, options.right_option from mcqquestion join mcqanswer on mcqquestion.question_id = mcqanswer.question_id join options on mcqanswer.question_id = options.question_id join quiz on quiz.name = (?)";
+	private String GET_MCQ_QUESTION_ANSWER = "SELECT quiz.name, mcqquestion.question, mcqanswer.option1, mcqanswer.option2, mcqanswer.option3, mcqanswer.option4, options.right_option from mcqquestion join mcqanswer on mcqquestion.question_id = mcqanswer.question_id join options on mcqanswer.question_id = options.question_id join quiz on quiz.name = mcqquestion.name where mcqquestion.name like (?)";
 	private String GET_SINGLE_QUESTION = "select question, answer.answer from question join answer on answer.q_id = question.q_id join quiz_question on question.q_id = quiz_question.q_id join quiz on quiz_question.name = ?";
 	
 	private String GET_ALL_QUIZ = "Select * from quiz";
@@ -124,7 +124,7 @@ public void create(Quiz quiz) throws CreateFailedException {
 			
 		} catch (org.h2.jdbc.JdbcSQLException sqle) {
 			
-			System.out.println("Quiz name exists / or has been added wanna add questions ?");
+			System.out.println("Quiz name exists / has been added wanna add questions ?");
 			JDBCO.logAlert("primary key violation User entered quiz that existed");
 
 		}catch (SQLException sqle) {	

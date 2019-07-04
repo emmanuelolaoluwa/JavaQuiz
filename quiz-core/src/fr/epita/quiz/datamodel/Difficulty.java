@@ -1,9 +1,10 @@
 package fr.epita.quiz.datamodel;
 /**
- * 
+ * Difficulty()
+ * Usage: difficulty."assigned difficulty without quotes".getDifficulty()
+ * example: difficulty.EASY.getDifficulty();
  * @author emmanuel
- *	This Class is not used to get the difficulty as it keeps the question class into a loop due to unknown errors
- *but the method remains in the main class and queries the database when needed
+ *	This class is used to assign difficulty to each questions 
  */
 public enum Difficulty {
 	VERY_EASY(0),

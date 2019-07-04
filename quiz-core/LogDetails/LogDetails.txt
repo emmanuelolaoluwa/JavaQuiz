@@ -89,3 +89,6 @@
 2019-07-03-06:30:28.411 - QUIZJDBCO LOGGER - [Error inserting open questions] --- ERROR
 2019-07-03-06:33:03.279 - QUIZJDBCO LOGGER - [Error inserting open questions] --- ERROR
 2019-07-03-13:24:18.629 - QUIZJDBCO LOGGER - [First List Empty check Second] --- ALERT
+2019-07-03-23:42:49.486 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-04-02:26:11.450 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-04-02:26:41.236 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT

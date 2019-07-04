@@ -1,25 +1,25 @@
 
-fsquid:UnusedPrivateMethod,"+Remove this unused private "search" method.(˜‡ðÜHíKRMAJORZ
+–squid:S1488>"bImmediately return this expression instead of assigning it to the temporary variable "connection".(²¨Ö‹8“öÝÚ¸-HáLRMINORZ
 CODE_SMELL
-ysquid:UnusedPrivateMethod="2Remove this unused private "getConnection" method.(›ó¿õøÿÿÿÿ8½ªâõº-HéKRMAJORZ
-CODE_SMELL
-}squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÏòóËþÿÿÿÿHåKRMAJORZ
-CODE_SMELL
-xsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(øê€©HçKRMAJORZ
-CODE_SMELL
-xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Ú¶£HìKRMAJORZ
-CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßŽ¸Íþÿÿÿÿ8øÓÒ‘¶-HïKRMAJORZ
-CODE_SMELL
-ƒsquid:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Í¾Ê—úÿÿÿÿ8“öÝÚ¸-HäKRBLOCKERZBUG
 e
-squid:S1065"9Replace this use of System.out or System.err by a logger.(æ²¨ÉHëKRMAJORZ
+squid:S1065"9Replace this use of System.out or System.err by a logger.(æ²¨ÉHâLRMAJORZ
 CODE_SMELL
-osquid:S20951"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ÞHêKRBLOCKERZBUG
-–squid:S1488>"bImmediately return this expression instead of assigning it to the temporary variable "connection".(²¨Ö‹8“öÝÚ¸-HîKRMINORZ
+bsquid:S2115>")Add password protection to this database.(²¨Ö‹8“öÝÚ¸-HãLRBLOCKERZVULNERABILITY
+osquid:S20951"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ÞHäLRBLOCKERZBUG
+fsquid:UnusedPrivateMethod,"+Remove this unused private "search" method.(˜‡ðÜHåLRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õêÌ¥ùÿÿÿÿHèKRMAJORZ
+ƒsquid:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Í¾Ê—úÿÿÿÿ8“öÝÚ¸-HæLRBLOCKERZBUG
+csquid:S1135""2Complete the task associated to this TODO comment.(ÏÂ›ùÿÿÿÿHçLRINFOZ
 CODE_SMELL
-csquid:S1135""2Complete the task associated to this TODO comment.(ÏÂ›ùÿÿÿÿHæKRINFOZ
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßŽ¸Íþÿÿÿÿ8øÓÒ‘¶-HèLRMAJORZ
 CODE_SMELL
-bsquid:S2115>")Add password protection to this database.(²¨Ö‹8“öÝÚ¸-HðKRBLOCKERZVULNERABILITY
+ysquid:UnusedPrivateMethod="2Remove this unused private "getConnection" method.(›ó¿õøÿÿÿÿ8½ªâõº-HéLRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Ú¶£HêLRMAJORZ
+CODE_SMELL
+xsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(øê€©HëLRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õêÌ¥ùÿÿÿÿHìLRMAJORZ
+CODE_SMELL
+}squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÏòóËþÿÿÿÿHíLRMAJORZ
+CODE_SMELL
