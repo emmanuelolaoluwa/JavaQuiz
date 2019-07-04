@@ -1,17 +1,17 @@
 
-esquid:S1135"2Complete the task associated to this TODO comment.(×”ğ•8–¿±¼»-HûSRINFOZ
+Õ%squid:RedundantThrowsDeclarationCheck;"†Remove the declaration of thrown exception 'fr.epita.quiz.exception.CreateFailedException', as it cannot be thrown from method's body.(øØ¶¾8×’Ø»-H¦XRMINORZ
 CODE_SMELL
+|squid:S2095K"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(©Ãôèüÿÿÿÿ8×’Ø»-H§XRBLOCKERZBUG
 k
-squid:S106g"9Replace this use of System.out or System.err by a logger.(’–õ8Ïğ×µ-HúSRMAJORZ
-CODE_SMELL
-bsquid:S1172v")Remove this unused method parameter "id".(¢º‡Íşÿÿÿÿ8–¿±¼»-HùSRMAJORZ
-CODE_SMELL
-x
-squid:S899"BDo something with the "boolean" value returned by "createNewFile".(×”ğ•8–¿±¼»-HøSRMINORZVULNERABILITY
-{squid:S2095L"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ë·è¹8×’Ø»-H½VRBLOCKERZBUG
-|squid:S2095K"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(©Ãôèüÿÿÿÿ8×’Ø»-H¾VRBLOCKERZBUG
-Õ%squid:RedundantThrowsDeclarationCheck;"†Remove the declaration of thrown exception 'fr.epita.quiz.exception.CreateFailedException', as it cannot be thrown from method's body.(øØ¶¾8×’Ø»-H¿VRMINORZ
+squid:S106g"9Replace this use of System.out or System.err by a logger.(’–õ8Ïğ×µ-H¨XRMAJORZ
 CODE_SMELL
 l
-squid:S106P"9Replace this use of System.out or System.err by a logger.(¤™‹’8×’Ø»-HÀVRMAJORZ
+squid:S106P"9Replace this use of System.out or System.err by a logger.(¤™‹’8×’Ø»-H©XRMAJORZ
+CODE_SMELL
+x
+squid:S899"BDo something with the "boolean" value returned by "createNewFile".(×”ğ•8–¿±¼»-HªXRMINORZVULNERABILITY
+bsquid:S1172v")Remove this unused method parameter "id".(¢º‡Íşÿÿÿÿ8–¿±¼»-H«XRMAJORZ
+CODE_SMELL
+{squid:S2095L"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ë·è¹8×’Ø»-H¬XRBLOCKERZBUG
+esquid:S1135"2Complete the task associated to this TODO comment.(×”ğ•8–¿±¼»-H­XRINFOZ
 CODE_SMELL

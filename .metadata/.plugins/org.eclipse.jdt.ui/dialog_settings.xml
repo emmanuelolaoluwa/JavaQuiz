@@ -116,6 +116,11 @@
 		<item key="antpath" value="/home/emmanuel/eclipse-workspace/quiz-core/javadoc.xml"/>
 		<item key="destdir" value="/home/emmanuel/eclipse-workspace/quiz-core/doc"/>
 		<section name="projects">
+			<section name="quiz-core">
+				<item key="href" value=""/>
+				<item key="destdir" value="/home/emmanuel/eclipse-workspace/quiz-core/doc"/>
+				<item key="antpath" value="/home/emmanuel/eclipse-workspace/quiz-core/javadoc.xml"/>
+			</section>
 		</section>
 	</section>
 </section>
