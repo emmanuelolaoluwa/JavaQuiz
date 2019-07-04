@@ -22,6 +22,7 @@ import fr.epita.quiz.datamodel.Quiz;
 import fr.epita.quiz.datamodel.studentQuestion;
 import fr.epita.quiz.exception.CreateFailedException;
 import fr.epita.quiz.exception.SearchFailedException;
+import fr.epita.quiz.logger.Logger;
 import fr.epita.quiz.datamodel.studentAnswer;
 import fr.epita.quiz.services.data.QuizJDBCDAO;
 import java.util.Properties;
@@ -160,12 +161,26 @@ public class Launcher {
 	 *                      </p>
 	 * 
 	 */
-
+/**
+ * Logger is called to check if the user starts the server before launching the application. The system automatically exits. Kindly refer to usermanual on 
+ * how to start H2 server for this application
+ * @param args
+ * @throws Exception
+ */
 	public static void main(String[] args) throws Exception {
 
 		Scanner scanner = new Scanner(System.in);
 		QuizJDBCDAO dao = new QuizJDBCDAO();
-		Connection connection = getConnection();
+		Logger mainClassLogger = new Logger("QUIZJDBCO LOGGER");
+		Connection connection = null;
+		try {
+			connection = getConnection();
+		} catch (org.h2.jdbc.JdbcSQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("Kindly refer to the USER GUIDE on how to Start H2 Server");
+		mainClassLogger.logError("User Failed To Start Server" + e.getMessage());
+			System.exit(0);
+		}
 
 		Object[] authenticated = QuizJDBCDAO.authenticate(scanner, connection);
 
@@ -246,7 +261,6 @@ public class Launcher {
 				String option4 = dao.quizSession(questiontype).get(i);
 				i++;
 				String rightOption = dao.quizSession(questiontype).get(i);
-				System.out.println(i);
 
 				studentQuestion studentquestion = new studentQuestion(question, option1, option2, option3, option4,
 						new studentAnswer(rightOption));

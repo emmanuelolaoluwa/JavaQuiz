@@ -92,3 +92,7 @@
 2019-07-03-23:42:49.486 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT
 2019-07-04-02:26:11.450 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT
 2019-07-04-02:26:41.236 - QUIZJDBCO LOGGER - [primary key violation User entered quiz that existed] --- ALERT
+2019-07-04-15:48:43.394 - QUIZJDBCO LOGGER - [User Failed To Start Server] --- ERROR
+2019-07-04-15:50:15.108 - QUIZJDBCO LOGGER - [User Failed To Start Server] --- ERROR
+2019-07-04-15:50:29.771 - QUIZJDBCO LOGGER - [User Failed To Start Server] --- ERROR
+2019-07-04-15:50:43.790 - QUIZJDBCO LOGGER - [User Failed To Start ServerConnection is broken: "java.net.ConnectException: Connection refused (Connection refused): localhost" [90067-197]] --- ERROR
