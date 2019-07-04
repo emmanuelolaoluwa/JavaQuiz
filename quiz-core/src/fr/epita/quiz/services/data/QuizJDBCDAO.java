@@ -548,7 +548,7 @@ public List<String> quizSession(String quizFind) throws SearchFailedException {
 /**
  * gets single answer question in the database, if a problem occurs then it throws an
  * {@link SEARCHFAILEDEXCEPTION} usage example: QuizJDBCDAO dao = new ... try{
- * dao.create(quizInstance); }catch(CreateFailed e){ //log exception }
+ * dao.singleAnswerQuestion(String quizfind); }catch(CreateFailed e){ //log exception }
  * 
  * @param quiz
  * @throws SearchFailedException
