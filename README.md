@@ -5,6 +5,7 @@ STEP 1 - Install Eclipse
 STEP 2 - Load project into Eclipse 
 
 STEP 3 - Navigate into folder QUIZ-CORE/ h2-2019-03-13/h2/bin and run h2.bat 
+
 STEP 4 - Paste "jdbc:h2:tcp://localhost/./database/quizDBB" (without quotes) into JDBC URL 
 Username - sa
 Password - manu
