@@ -221,7 +221,7 @@ public class Launcher {
 			}
 		}
 
-		System.out.println("\n Welcome to your aptitude test, Select a quiz to take. Enter the Quiz text not the serial number");
+		System.out.println("\n NOTE: Enter the Quiz text not the serial number  Welcome to your aptitude test, Enter a quiz to take. ");
 
 		getAllQuiz(dao);
 
@@ -287,8 +287,8 @@ public class Launcher {
 						break;
 					}
 				} while (temp != "r");
-
 				if (!answer.equals(studentquestion.getStudentanswer().getAnswer())) {
+					
 					System.out.println("------------------------------");
 					System.out.println("Correct Answer");
 					System.out.println("------------------------------");
@@ -306,6 +306,7 @@ public class Launcher {
 			}
 
 		}
+		System.out.println("Single Answers Only");
 		int totalLength = dao.singleAnswerQuestion(questiontype).size();
 		for (int i = 0; i < totalLength ; i++) {
 
@@ -314,8 +315,7 @@ public class Launcher {
 			String option = dao.singleAnswerQuestion(questiontype).get(i);
 
 			System.out.println(question);
-			System.out.println(option);
-
+		
 			System.out.println("Enter option");
 			String opt = scanner.nextLine();
 			opt = opt.toLowerCase();
@@ -542,7 +542,7 @@ public class Launcher {
 				answer.setQuestion(question);
 				answer.setQuiz(quiz);
 				dao.createAll(quiz, answer, question);
-				System.out.println("Question Sucessfully added !");
+				System.out.println("Question Sucessfully !");
 				break;
 			case "2":
 				quest = questCreation(scanner);
@@ -638,7 +638,6 @@ public class Launcher {
 					case 4:
 						difficulty = Difficulty.VERY_HARD.getDifficulty();
 						break;
-					
 					case 5:
 						difficulty = Difficulty.EXTREMELY_HARD.getDifficulty();
 						break;

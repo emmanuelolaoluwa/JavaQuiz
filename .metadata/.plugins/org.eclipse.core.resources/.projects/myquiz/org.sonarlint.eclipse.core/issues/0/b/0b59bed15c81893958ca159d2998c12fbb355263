@@ -1,7 +1,0 @@
-
-tsquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ׂÜֵ¸תÿÿÿÿ8ÿט₪ס²-HגRMINORZ
-CODE_SMELL
-qsquid:UselessImportCheck"0Remove this unused import 'java.nio.file.Paths'.(בט°¯8ÿט₪ס²-HבRMINORZ
-CODE_SMELL
-}
-squid:S899#"BDo something with the "boolean" value returned by "createNewFile".(׀’ֽשÿÿÿÿ8ÿט₪ס²-HדRMINORZVULNERABILITY

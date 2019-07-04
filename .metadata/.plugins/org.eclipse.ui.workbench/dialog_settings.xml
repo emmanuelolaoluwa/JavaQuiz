@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="dialogHeight" value="-1"/>
-		<item key="dialogWidth" value="-1"/>
+		<item key="dialogHeight" value="940"/>
+		<item key="dialogWidth" value="669"/>
 		<list key="orderedElements">
+			<item value="org.eclipse.jdt.ui.CompilationUnitEditorquiz-core/src/fr/epita/quiz/launcher/Launcher.java"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="org.eclipse.ui.editors"/>
 		</list>
 		<list key="textEntries">
+			<item value="0"/>
 		</list>
 		<list key="textArray">
 		</list>

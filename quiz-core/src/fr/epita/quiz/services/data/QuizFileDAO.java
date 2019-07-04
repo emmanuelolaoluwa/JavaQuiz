@@ -1,7 +1,9 @@
 package fr.epita.quiz.services.data;
 
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
@@ -52,6 +54,39 @@ public class QuizFileDAO {
 		}
 	
 	}
+	
+	
+public void create(String quiz) throws CreateFailedException, IOException{
+		
+	/**	try (
+				//PrintWriter writer = new PrintWriter(file))
+	PrintWriter writer = new PrintWriter(new FileWriter(file, true)))
+		{
+			writer.println(quiz);
+			writer.flush();
+			
+		} catch (FileNotFoundException e) {
+			throw new CreateFailedException(quiz, e);
+		}
+	
+	**/
+	
+	 try{
+		  FileWriter fstream = new FileWriter(file,true);
+		  BufferedWriter out = new BufferedWriter(fstream);
+		  out.write("Line Added on: " + quiz +"\n");
+		  out.close();
+	  }catch (Exception e){
+		 System.err.println("Error while writing to file: " +
+	          e.getMessage());
+	  }
+	
+		
+		}	
+	
+	
+	
+	
 	
 	public boolean delete(Quiz quizCriterion) throws DeleteFailedException{
 		

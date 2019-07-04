@@ -1,25 +1,25 @@
 
-–squid:S1488>"bImmediately return this expression instead of assigning it to the temporary variable "connection".(²¨Ö‹8“öÝÚ¸-HáLRMINORZ
+osquid:S20951"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ÞHèTRBLOCKERZBUG
+–squid:S1488>"bImmediately return this expression instead of assigning it to the temporary variable "connection".(²¨Ö‹8“öÝÚ¸-HéTRMINORZ
 CODE_SMELL
 e
-squid:S1065"9Replace this use of System.out or System.err by a logger.(æ²¨ÉHâLRMAJORZ
+squid:S1065"9Replace this use of System.out or System.err by a logger.(æ²¨ÉHêTRMAJORZ
 CODE_SMELL
-bsquid:S2115>")Add password protection to this database.(²¨Ö‹8“öÝÚ¸-HãLRBLOCKERZVULNERABILITY
-osquid:S20951"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¶ë‰ÞHäLRBLOCKERZBUG
-fsquid:UnusedPrivateMethod,"+Remove this unused private "search" method.(˜‡ðÜHåLRMAJORZ
+„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßŽ¸Íþÿÿÿÿ8øÓÒ‘¶-HëTRMAJORZ
 CODE_SMELL
-ƒsquid:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Í¾Ê—úÿÿÿÿ8“öÝÚ¸-HæLRBLOCKERZBUG
-csquid:S1135""2Complete the task associated to this TODO comment.(ÏÂ›ùÿÿÿÿHçLRINFOZ
+bsquid:S2115>")Add password protection to this database.(²¨Ö‹8“öÝÚ¸-HìTRBLOCKERZVULNERABILITY
+}squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÏòóËþÿÿÿÿHíTRMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ßŽ¸Íþÿÿÿÿ8øÓÒ‘¶-HèLRMAJORZ
+xsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(øê€©HîTRMAJORZ
 CODE_SMELL
-ysquid:UnusedPrivateMethod="2Remove this unused private "getConnection" method.(›ó¿õøÿÿÿÿ8½ªâõº-HéLRMAJORZ
+fsquid:UnusedPrivateMethod,"+Remove this unused private "search" method.(˜‡ðÜHïTRMAJORZ
 CODE_SMELL
-xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Ú¶£HêLRMAJORZ
+xsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(÷Ú¶£HðTRMAJORZ
 CODE_SMELL
-xsquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(øê€©HëLRMAJORZ
+csquid:S1135""2Complete the task associated to this TODO comment.(ÏÂ›ùÿÿÿÿHñTRINFOZ
 CODE_SMELL
-}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õêÌ¥ùÿÿÿÿHìLRMAJORZ
+ysquid:UnusedPrivateMethod="2Remove this unused private "getConnection" method.(›ó¿õøÿÿÿÿ8½ªâõº-HòTRMAJORZ
 CODE_SMELL
-}squid:CommentedOutCodeLine#"<This block of commented-out lines of code should be removed.(ÏòóËþÿÿÿÿHíLRMAJORZ
+}squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(õêÌ¥ùÿÿÿÿHóTRMAJORZ
 CODE_SMELL
+ƒsquid:S2095/"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Í¾Ê—úÿÿÿÿ8“öÝÚ¸-HôTRBLOCKERZBUG

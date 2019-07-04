@@ -16,12 +16,9 @@
 <fullyQualifiedTypeName name="fr.epita.myquiz.datamodel.Answer"/>
 <fullyQualifiedTypeName name="java.io.BufferedReader"/>
 <fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.datamodel.Question"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.datamodel.Mcqanswer"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.services.data.QuizJDBCDAO"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.datamodel.studentQuestion"/>
@@ -38,4 +35,8 @@
 <fullyQualifiedTypeName name="fr.epita.quiz.exception.SearchFailedException"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.exception.DataAccessException"/>
 <fullyQualifiedTypeName name="fr.epita.quiz.exception.DeleteFailedException"/>
+<fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 </qualifiedTypeNameHistroy>

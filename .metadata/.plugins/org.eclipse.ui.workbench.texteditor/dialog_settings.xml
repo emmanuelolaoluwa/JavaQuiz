@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="searchT"/>
+		<item key="selection" value="questionCreation"/>
 		<list key="findhistory">
+			<item value="questioncreation"/>
 			<item value="searchT"/>
 			<item value="connection"/>
 			<item value="close"/>

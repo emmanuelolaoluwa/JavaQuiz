@@ -1,19 +1,9 @@
 
-e
-squid:S106,"9Replace this use of System.out or System.err by a logger.(ò°íüH°LRMAJORZ
+€squid:UselessImportCheck":Remove this unused import 'java.io.FileNotFoundException'.(·î™ùÿÿÿÿ8†÷Ö»-H¡URMINORZ
 CODE_SMELL
-_squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ç—Ç¼»-H³LRMINORZVULNERABILITY
-q
-squid:S106"9Replace this use of System.out or System.err by a logger.(¤ÏûÑùÿÿÿÿ8Ç—Ç¼»-HµLRMAJORZ
+qsquid:UselessImportCheck"0Remove this unused import 'java.io.PrintWriter'.(ÓŞÏÛ8†÷Ö»-H URMINORZ
 CODE_SMELL
-Xsquid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH®LRMINORZVULNERABILITY
-q
-squid:S106."9Replace this use of System.out or System.err by a logger.(”´¾Æşÿÿÿÿ8Ç—Ç¼»-H´LRMAJORZ
+jsquid:S11358"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ƒƒ„Øµ-HôSRINFOZ
 CODE_SMELL
-d
-squid:S106*"9Replace this use of System.out or System.err by a logger.(Äş!H¯LRMAJORZ
-CODE_SMELL
-jsquid:S11351"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ8ƒƒ„Øµ-H²LRINFOZ
-CODE_SMELL
-csquid:S1135#"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH±LRINFOZ
+csquid:S1135*"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHöSRINFOZ
 CODE_SMELL

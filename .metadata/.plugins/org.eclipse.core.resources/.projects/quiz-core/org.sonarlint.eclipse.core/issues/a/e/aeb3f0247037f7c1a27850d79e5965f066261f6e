@@ -1,83 +1,83 @@
 
+¡ squid:ForLoopCounterChangedCheckM"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8È±á›»-HõTRMAJORZ
+CODE_SMELL
 q
-squid:S106N"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8¡•–»-H…LRMAJORZ
+squid:S106k"9Replace this use of System.out or System.err by a logger.(–Êç¼ùÿÿÿÿ8È±á›»-HöTRMAJORZ
+CODE_SMELL
+q
+squid:S106#"9Replace this use of System.out or System.err by a logger.(Ÿ‘ÛŞûÿÿÿÿ8È±á›»-H÷TRMAJORZ
+CODE_SMELL
+›squid:S1192Z"_Define a constant instead of duplicating this literal "------------------------------" 4 times.(Ïíõšûÿÿÿÿ8È±á›»-HøTRCRITICALZ
+CODE_SMELL
+„squid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(Œ¬èûÿÿÿÿ8‰Ñ¤„»-HùTRMAJORZ
+CODE_SMELL
+q
+squid:S106&"9Replace this use of System.out or System.err by a logger.(†š¼øÿÿÿÿ8È±á›»-HúTRMAJORZ
 CODE_SMELL
 l
-squid:S1068"9Replace this use of System.out or System.err by a logger.(‘®½ë8­¯¬–»-H‚LRMAJORZ
+squid:S106b"9Replace this use of System.out or System.err by a logger.(ê›ì‰8È±á›»-HûTRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(çÌÁû8Èƒº»-HüTRMAJORZ
+CODE_SMELL
+q
+squid:S106R"9Replace this use of System.out or System.err by a logger.(á§îíûÿÿÿÿ8È±á›»-HıTRMAJORZ
+CODE_SMELL
+q
+squid:S106N"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8¡•–»-HşTRMAJORZ
+CODE_SMELL
+q
+squid:S106P"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8È±á›»-HÿTRMAJORZ
 CODE_SMELL
 l
-squid:S106 "9Replace this use of System.out or System.err by a logger.(º˜Šµ8È±á›»-HûKRMAJORZ
+squid:S106 "9Replace this use of System.out or System.err by a logger.(º˜Šµ8È±á›»-H€URMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(Â±˜8È±á›»-HöKRMAJORZ
-CODE_SMELL
-q
-squid:S106)"9Replace this use of System.out or System.err by a logger.(ñÆÛÙÿÿÿÿÿ8È±á›»-HşKRMAJORZ
+squid:S106|"9Replace this use of System.out or System.err by a logger.(„š­ƒ8Ãì·¼»-HURMAJORZ
 CODE_SMELL
 l
-squid:S106|"9Replace this use of System.out or System.err by a logger.(„š­ƒ8Ãì·¼»-H“LRMAJORZ
+squid:S106U"9Replace this use of System.out or System.err by a logger.(ã¹©8È±á›»-H‚URMAJORZ
 CODE_SMELL
 l
-squid:S106}"9Replace this use of System.out or System.err by a logger.(÷‚ì¨8Ãì·¼»-H”LRMAJORZ
+squid:S106}"9Replace this use of System.out or System.err by a logger.(÷‚ì¨8Ãì·¼»-HƒURMAJORZ
 CODE_SMELL
-„squid:CommentedOutCodeLiney"<This block of commented-out lines of code should be removed.(Œ¬èûÿÿÿÿ8‰Ñ¤„»-HÿKRMAJORZ
+hsquid:S1481F"/Remove this unused "countWrong" local variable.(Ôé¢Îúÿÿÿÿ8È±á›»-H„URMINORZ
+CODE_SMELL
+q
+squid:S106B"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8È±á›»-H…URMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(ü×ØÒ8È±á›»-HõKRMAJORZ
-CODE_SMELL
-q
-squid:S106R"9Replace this use of System.out or System.err by a logger.(á§îíûÿÿÿÿ8È±á›»-HúKRMAJORZ
-CODE_SMELL
-q
-squid:S106\"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-H€LRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰ÁÇÅ8È±á›»-H†URMAJORZ
 CODE_SMELL
 l
-squid:S106b"9Replace this use of System.out or System.err by a logger.(ê›ì‰8È±á›»-HŒLRMAJORZ
-CODE_SMELL
-squid:CommentedOutCodeLineo"<This block of commented-out lines of code should be removed.(çÌÁû8Èƒº»-HLRMAJORZ
+squid:S1068"9Replace this use of System.out or System.err by a logger.(‘®½ë8­¯¬–»-H‡URMAJORZ
 CODE_SMELL
 q
-squid:S106S"9Replace this use of System.out or System.err by a logger.(ÂÛÑ®úÿÿÿÿ8È±á›»-H†LRMAJORZ
+squid:S106a"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-HˆURMAJORZ
 CODE_SMELL
 q
-squid:S106c"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-H÷KRMAJORZ
-CODE_SMELL
-q
-squid:S106P"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8È±á›»-HùKRMAJORZ
-CODE_SMELL
-hsquid:S1481F"/Remove this unused "countWrong" local variable.(Ôé¢Îúÿÿÿÿ8È±á›»-HLRMINORZ
-CODE_SMELL
-›squid:S1192Z"_Define a constant instead of duplicating this literal "------------------------------" 4 times.(Ïíõšûÿÿÿÿ8È±á›»-HˆLRCRITICALZ
-CODE_SMELL
-q
-squid:S106#"9Replace this use of System.out or System.err by a logger.(Ÿ‘ÛŞûÿÿÿÿ8È±á›»-HüKRMAJORZ
-CODE_SMELL
-q
-squid:S106["9Replace this use of System.out or System.err by a logger.(®›İºüÿÿÿÿ8È±á›»-H‰LRMAJORZ
-CODE_SMELL
-q
-squid:S106k"9Replace this use of System.out or System.err by a logger.(–Êç¼ùÿÿÿÿ8È±á›»-HLRMAJORZ
-CODE_SMELL
-\squid:S2201"/The return value of "toLowerCase" must be used.(¡Úäÿ8È±á›»-H‹LRMAJORZBUG
-„squid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(ØÛ­àşÿÿÿÿ8´’Üñº-HƒLRMAJORZ
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ñÆÛÙÿÿÿÿÿ8È±á›»-H‰URMAJORZ
 CODE_SMELL
 l
-squid:S106U"9Replace this use of System.out or System.err by a logger.(ã¹©8È±á›»-HLRMAJORZ
-CODE_SMELL
-¡ squid:ForLoopCounterChangedCheckM"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ8È±á›»-HLRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ü×ØÒ8È±á›»-HŠURMAJORZ
 CODE_SMELL
 q
-squid:S106Z"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-H‡LRMAJORZ
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-H‹URMAJORZ
 CODE_SMELL
 q
-squid:S106a"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-HŠLRMAJORZ
+squid:S106["9Replace this use of System.out or System.err by a logger.(®›İºüÿÿÿÿ8È±á›»-HŒURMAJORZ
+CODE_SMELL
+„squid:CommentedOutCodeLiner"<This block of commented-out lines of code should be removed.(ØÛ­àşÿÿÿÿ8´’Üñº-HURMAJORZ
 CODE_SMELL
 l
-squid:S106"9Replace this use of System.out or System.err by a logger.(‰ÁÇÅ8È±á›»-HøKRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Â±˜8È±á›»-HURMAJORZ
 CODE_SMELL
 q
-squid:S106&"9Replace this use of System.out or System.err by a logger.(†š¼øÿÿÿÿ8È±á›»-HıKRMAJORZ
+squid:S106c"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-HURMAJORZ
 CODE_SMELL
 q
-squid:S106B"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8È±á›»-H„LRMAJORZ
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ÂÛÑ®úÿÿÿÿ8È±á›»-HURMAJORZ
 CODE_SMELL
+q
+squid:S106\"9Replace this use of System.out or System.err by a logger.(Ïíõšûÿÿÿÿ8È±á›»-H‘URMAJORZ
+CODE_SMELL
+\squid:S2201"/The return value of "toLowerCase" must be used.(¡Úäÿ8È±á›»-H’URMAJORZBUG
